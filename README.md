@@ -1,8 +1,6 @@
   <h1>Ahmad Ma'sum</h1>
   <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, Supabase and more.</p> 
-
-<br/>
-
+  
 ## 📘 Introduction
 
 This is my personal website built from scratch since February 2024 using modern technologies such as Next.js and TypeScript.
