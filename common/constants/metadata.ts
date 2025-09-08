@@ -4,10 +4,10 @@ export const METADATA = {
   keyword: "masum, Ahmad Ma'sum",
   authors: {
     name: "Ahmad Ma'sum",
-    url: process.env.DOMAIN,
+    url: process.env.DOMAIN || process.env.NEXTAUTH_URL || "http://localhost:3000",
   },
   openGraph: {
-    url: process.env.DOMAIN,
+    url: process.env.DOMAIN || process.env.NEXTAUTH_URL || "http://localhost:3000",
     siteName: "Ahmad Ma'sum",
     locale: "id-ID",
   },
