@@ -1,0 +1,62 @@
+  <h1>Ahmad Ma'sum</h1>
+  <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, Supabase and more.</p> 
+
+<br/>
+
+<img width="1525" height="1221" alt="Screenshot 2025-08-07 115929" src="https://github.com/user-attachments/assets/fcf5a30b-0ad8-4a57-b1bf-e846e4ed416c" />
+
+## 📘 Introduction
+
+This is my personal website built from scratch since February 2024 using modern technologies such as Next.js and TypeScript.
+
+I use this platform to share projects, insights, and resources. The site is constantly evolving as I add more features and improvements.
+
+Feel free to explore the source code, use it as inspiration, or fork it as a template under the provided license. If you find this project useful, consider giving it a star ⭐.
+
+Have feedback, ideas, or questions? Don’t hesitate to reach out! 🙌
+
+---
+
+## Tech Stack
+
+This website is built using these technologies:
+
+- **⚛️ Next.js**
+- **🔰 TypeScript**
+- **💠 Tailwind CSS v3**
+- **🦫 Zustand**
+- **〰️ SWR**
+- **➰ Framer Motion**
+- **💢 React Icons**
+- **🌐 Next-Intl (i18n)**
+- **📦 Absolute Imports & Path Alias**
+- **📏 ESLint & Prettier**
+- **📌 Conventional Commit Lint**
+
+---
+
+## 🚀 Features
+
+### 🕗 Wakatime Statistics
+Displays live coding statistics from Wakatime using serverless API routes in Next.js.
+
+### 🗳 Project Showcase
+Projects are stored in a Supabase PostgreSQL database. Uses ISR (1s revalidation) and SSR for optimal performance.
+
+### 🌍 Internationalization
+Supports multiple languages using `next-intl`. Easily extendable to support additional locales.
+
+### 📊 Developer Dashboard
+Interactive dashboard visualizing:
+- GitHub contributions
+- Wakatime data
+- Codewars stats
+- Monkeytype typing stats
+
+Each stat is retrieved using public APIs and visualized in a user-friendly way.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.

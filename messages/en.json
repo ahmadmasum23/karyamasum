@@ -1,0 +1,210 @@
+{
+  "HomePage": {
+    "intro": "Hi, I'm Ahmad Ma'sum 👋",
+    "location": "Based in Malang, Indonesia 🇮🇩",
+    "location_type": "Onsite",
+   "resume": "A passionate and enthusiastic junior programmer from Malang, East Java. I am currently a student at SMK Brantas Karangkates, majoring in Software Engineering (RPL). I have a strong interest in Front-End Development, Mobile Apps, Artificial Intelligence (AI), and Chatbot Development. I am always eager to learn new things and explore emerging technologies.",
+    "skills": {
+      "title": "Skills",
+      "sub_title": "My professional skills."
+    },
+    "bento": {
+      "title": "Featured Sections",
+      "sub_title": "Explore everything I’ve crafted, contributed, and accomplished."
+    }
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "A brief introduction to who I am.",
+    "resume": {
+      "paragraf_1": "Hello! Thank you for visiting my personal website. I’m Ahmad Ma’sum, a student at SMK Brantas Karangkates majoring in Software Engineering (RPL), originally from Malang, East Java. Since the beginning of my studies in vocational school, I have fallen in love with the world of programming and technology.",
+
+      "paragraf_2": "I enjoy creating user-friendly solutions with high performance. Whether building intuitive interfaces or designing backend services, I always strive to bring efficiency and clarity to every layer of an application. I am a fast learner who thrives in dynamic environments and enjoys solving complex problems collaboratively.",
+
+      "paragraf_3": "I believe that good communication and team synergy are the keys to success in software development. My experiences have shaped both my technical and analytical skills, as well as my leadership qualities. I am always eager to work in a team, learn from others, and contribute to impactful projects.",
+
+      "paragraf_4": "Warm regards."
+
+    },
+    "career": {
+      "title": "Career",
+      "sub_title": "My professional journey."
+    },
+    "education": {
+      "title": "Education",
+      "sub_title": "My educational journey."
+    },
+    "resume_download_button": "Download Resume",
+    "portfolio_download_button": "Download Portfolio"
+  },
+  "AchievementsPage": {
+    "title": "Achievements",
+    "description": "A curated collection of certificates and badges I’ve earned throughout my professional and academic journey.",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available.",
+    "show_credential": "Show Credentials"
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "A showcase of both private and open-source projects I’ve built or contributed to.",
+    "view_project": "View Project",
+    "tech_stack": "Tech Stack",
+    "back_button": "Back",
+    "source_code_text": "Source Code",
+    "live_demo_text": "Live Demo",
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": "My personal dashboard built with Next.js API routes, visualizing development statistics and contributions in real-time.",
+    "error": "An error occurred on the server.",
+    "umami": {
+      "title": "Umami",
+      "sub_title": "Monitor real-time traffic and interactions from my portfolio site.",
+      "overview": {
+        "page_views": "Page Views",
+        "visitors": "Visitors",
+        "visits": "Visits",
+        "countries": "Countries",
+        "events": "Events"
+      },
+      "chart": {
+        "title": "Traffic Trends",
+        "sessions": "Sessions",
+        "page_views": "Page Views"
+      },
+      "filter_placeholder": "Filter domain..."
+    },
+    "github": {
+      "title": "GitHub Contributions",
+      "sub_title": "My GitHub activity over the past year.",
+      "title_total_contribution": "Total",
+      "title_total_this_week_contributino": "This week",
+      "title_best_contribution": "Best",
+      "title_average_contribution": "Average",
+      "title_less_contribution": "Less",
+      "title_more_contribution": "More",
+      "unit": "day"
+    },
+    "wakatime": {
+      "title": "WakaTime Stats",
+      "sub_title": "Coding activity over the past 7 days.",
+      "last_update": "Last Update",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "daily_average": "Average Daily Coding Time",
+      "total_this_week": "Total This Week",
+      "best_day": "Best Day",
+      "all_time_since_joined": "All-Time Coding Since Joined",
+      "languages": "Top Languages"
+    },
+    "codewars": {
+      "title": "Codewars Progress",
+      "sub_title": "Performance metrics from Codewars challenges.",
+      "title_rank": "Rank",
+      "title_honor": "Honor",
+      "title_completed": "Challenges Completed",
+      "title_leaderboard": "Global Leaderboard",
+      "title_clan": "Clan",
+      "title_skills": "Associated Skills"
+    },
+    "monkeytype": {
+      "title": "Monkeytype Stats",
+      "sub_title": "Typing statistics and performance.",
+      "joined": "Joined",
+      "current_streak": "Current Streak",
+      "unit_days": "days",
+      "title_test_started": "Tests Started",
+      "title_test_completed": "Tests Completed",
+      "title_time_typing": "Total Typing Time",
+      "title_leaderboard": "All-Time English Leaderboard",
+      "unit_seconds": "seconds",
+      "unit_time": "time",
+      "unit_words": "words",
+      "top": "top",
+      "days_ago": "days ago",
+      "xp_until_next_level": "XP to Next Level",
+      "total_xp": "Total XP"
+    }
+  },
+  "ChatRoomPage": {
+    "title": "Chat Room",
+    "description": "Feel free to share your thoughts, suggestions, questions, or anything else!",
+    "placeholder": "Type your message...",
+    "sign_in": {
+      "title": "Please sign in to join the conversation. Don't worry, your data is safe with us.",
+      "label": "Sign in with",
+      "signed_label": "Signed in as",
+      "sign_out_label": "Sign out"
+    },
+    "widget": {
+      "title": "Chat Room",
+      "tooltip_title": "Open Chat Room",
+      "tooltip_minimize": "Minimize",
+      "tooltip_signout": "Sign out"
+    }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Let`s get in touch",
+    "social_media": {
+      "title": "Find me on social media",
+      "gmail": {
+        "title": "Stay in Touch",
+        "description": "Reach out via email for inquiries or collaborations."
+      },
+      "instagram": {
+        "title": "Follow My Journey",
+        "description": "Follow my creative journey."
+      },
+      "linkedin": {
+        "title": "Let's Connect",
+        "description": "Connect with me professionally."
+      },
+      "tiktok": {
+        "title": "Join the Fun",
+        "description": "Watch engaging and fun content."
+      },
+      "github": {
+        "title": "Explore the Code",
+        "description": "Explore my open-source work."
+      }
+    },
+    "form": {
+      "title": "Or send me a message",
+      "input_name": "Name",
+      "input_email": "Email",
+      "input_message": "Message",
+      "button": "Send Email"
+    }
+  },
+  "SmartTalkPage": {
+    "title": "Smart Talk",
+    "description": "An AI-powered space for natural, insightful conversations and idea exploration."
+  },
+  "Footer": {
+    "hire": "Hire me.",
+    "copyright_1": "COPYRIGHT © ",
+    "copyright_2": "AhmadMasum. All rights reserved."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇮🇩",
+    "label": "Language"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "About": "About",
+    "Achievements": "Achievements",
+    "Projects": "Projects",
+    "Dashboard": "Dashboard",
+    "Chat Room": "Chat Room",
+    "Contact": "Contact",
+    "Smart Talk": "Smart Talk"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "button": "Take me home"
+  }
+}

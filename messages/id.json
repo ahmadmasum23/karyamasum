@@ -1,0 +1,209 @@
+{
+  "HomePage": {
+    "intro": "Hai, saya Ahmad Ma'sum 👋",
+    "location": "Berasal dari Malang, Indonesia 🇮🇩",
+    "location_type": "Tatap Muka",
+    "resume": "Seorang programmer junior yang bersemangat dan antusias dari Malang, Jawa Timur. Saat ini, saya adalah mahasiswa di SMK Brantas Karangkates, jurusan Software Engineering (RPL). Saya sangat tertarik dengan Pengembangan Front-End, Mobile Apps, Kecerdasan Buatan (AI), dan Pengembangan Chatbot. Saya selalu ingin mempelajari hal-hal baru dan menjelajahi teknologi baru.",
+    "skills": {
+      "title": "Keahlian",
+      "sub_title": "Keahlian profesional saya."
+    },
+    "bento": {
+      "title": "Bagian Unggulan",
+      "sub_title": "Jelajahi semua yang telah saya buat, kontribusikan, dan capai."
+    }
+  },
+  "AboutPage": {
+    "title": "Tentang",
+    "description": "Perkenalan singkat tentang siapa saya.",
+    "resume": {
+      "paragraf_1": "Halo! Terima kasih telah mengunjungi situs pribadi saya. Saya Ahmad Ma’sum, seorang siswa SMK Brantas Karangkates jurusan Rekayasa Perangkat Lunak yang berasal dari Malang, Jawa Timur. Sejak awal masuk SMK, saya sudah jatuh cinta pada dunia pemrograman dan teknologi.",
+
+      "paragraf_2": "Saya menikmati menciptakan solusi yang ramah pengguna dan memiliki performa tinggi. Baik saat membangun antarmuka yang intuitif maupun merancang layanan backend, saya selalu berusaha membawa efisiensi dan kejelasan pada setiap lapisan aplikasi. Saya pembelajar cepat yang tumbuh dalam lingkungan dinamis dan senang menyelesaikan masalah kompleks secara kolaboratif.",
+
+      "paragraf_3": "Saya percaya bahwa komunikasi yang baik dan sinergi tim adalah kunci kesuksesan dalam pengembangan perangkat lunak. Pengalaman saya telah membentuk kemampuan teknis dan analitis saya, serta kualitas kepemimpinan saya. Saya selalu bersemangat untuk bekerja dalam tim, belajar dari orang lain, dan berkontribusi pada proyek yang berdampak.",
+
+      "paragraf_4": "Salam hangat."
+    },
+    "career": {
+      "title": "Karier",
+      "sub_title": "Perjalanan profesional saya."
+    },
+    "education": {
+      "title": "Pendidikan",
+      "sub_title": "Perjalanan pendidikan saya."
+    },
+    "resume_download_button": "Unduh CV",
+    "portfolio_download_button": "Unduh Portofolio"
+  },
+  "AchievementsPage": {
+    "title": "Pencapaian",
+    "description": "Kumpulan sertifikat dan badge yang saya peroleh sepanjang perjalanan profesional dan akademik.",
+    "error": "Terjadi kesalahan pada server.",
+    "no_data": "Data tidak tersedia.",
+    "show_credential": "Lihat Kredensial"
+  },
+  "ProjectsPage": {
+    "title": "Proyek",
+    "description": "Pameran proyek pribadi dan open-source yang telah saya buat atau kontribusikan.",
+    "view_project": "Lihat Proyek",
+    "tech_stack": "Teknologi yang Digunakan",
+    "back_button": "Kembali",
+    "source_code_text": "Kode Sumber",
+    "live_demo_text": "Demo Langsung",
+    "error": "Terjadi kesalahan pada server.",
+    "no_data": "Data tidak tersedia."
+  },
+  "DashboardPage": {
+    "title": "Dasbor",
+    "description": "Dasbor pribadi saya yang dibangun dengan Next.js API routes, memvisualisasikan statistik pengembangan dan kontribusi secara real-time.",
+    "error": "Terjadi kesalahan pada server.",
+    "umami": {
+      "title": "Umami",
+      "sub_title": "Pantau lalu lintas dan interaksi secara real-time dari situs portofolio saya.",
+      "overview": {
+        "page_views": "Tampilan",
+        "visitors": "Pengunjung",
+        "visits": "Kunjungan",
+        "countries": "Negara",
+        "events": "Peristiwa"
+      },
+      "chart": {
+        "title": "Tren Lalu Lintas",
+        "sessions": "Sesi",
+        "page_views": "Tampilan Halaman"
+      },
+      "filter_placeholder": "Saring domain..."
+    },
+    "github": {
+      "title": "Kontribusi GitHub",
+      "sub_title": "Aktivitas GitHub saya selama satu tahun terakhir.",
+      "title_total_contribution": "Total",
+      "title_total_this_week_contributino": "Minggu ini",
+      "title_best_contribution": "Terbaik",
+      "title_average_contribution": "Rata-rata",
+      "title_less_contribution": "Paling Sedikit",
+      "title_more_contribution": "Paling Banyak",
+      "unit": "hari"
+    },
+    "wakatime": {
+      "title": "Statistik WakaTime",
+      "sub_title": "Aktivitas coding selama 7 hari terakhir.",
+      "last_update": "Pembaruan Terakhir",
+      "start_date": "Tanggal Mulai",
+      "end_date": "Tanggal Selesai",
+      "daily_average": "Rata-rata Waktu Coding Harian",
+      "total_this_week": "Total Minggu Ini",
+      "best_day": "Hari Terbaik",
+      "all_time_since_joined": "Total Coding Sejak Bergabung",
+      "languages": "Bahasa Teratas"
+    },
+    "codewars": {
+      "title": "Perkembangan Codewars",
+      "sub_title": "Metri performa dari tantangan Codewars.",
+      "title_rank": "Peringkat",
+      "title_honor": "Honor",
+      "title_completed": "Tantangan Diselesaikan",
+      "title_leaderboard": "Papan Peringkat Global",
+      "title_clan": "Klan",
+      "title_skills": "Keahlian Terkait"
+    },
+    "monkeytype": {
+      "title": "Statistik Monkeytype",
+      "sub_title": "Statistik dan performa mengetik.",
+      "joined": "Bergabung",
+      "current_streak": "Rekor Saat Ini",
+      "unit_days": "hari",
+      "title_test_started": "Tes Dimulai",
+      "title_test_completed": "Tes Selesai",
+      "title_time_typing": "Total Waktu Mengetik",
+      "title_leaderboard": "Papan Peringkat Bahasa Inggris Sepanjang Masa",
+      "unit_seconds": "detik",
+      "unit_time": "waktu",
+      "unit_words": "kata",
+      "top": "teratas",
+      "days_ago": "hari yang lalu",
+      "xp_until_next_level": "XP ke Level Selanjutnya",
+      "total_xp": "Total XP"
+    }
+  },
+  "ChatRoomPage": {
+    "title": "Ruang Obrolan",
+    "description": "Silakan bagikan pendapat, saran, pertanyaan, atau apa pun di sini!",
+    "placeholder": "Ketik pesan Anda...",
+    "sign_in": {
+      "title": "Silakan masuk untuk bergabung dalam percakapan. Tenang, data Anda aman bersama kami.",
+      "label": "Masuk dengan",
+      "signed_label": "Masuk sebagai",
+      "sign_out_label": "Keluar"
+    },
+    "widget": {
+      "title": "Ruang Obrolan",
+      "tooltip_title": "Buka Ruang Obrolan",
+      "tooltip_minimize": "Minimalkan",
+      "tooltip_signout": "Keluar"
+    }
+  },
+  "ContactPage": {
+    "title": "Kontak",
+    "description": "Mari kita terhubung",
+    "social_media": {
+      "title": "Temukan saya di media sosial",
+      "gmail": {
+        "title": "Tetap Terhubung",
+        "description": "Hubungi saya via email untuk pertanyaan atau kolaborasi."
+      },
+      "instagram": {
+        "title": "Ikuti Perjalanan Saya",
+        "description": "Ikuti perjalanan kreatif saya."
+      },
+      "linkedin": {
+        "title": "Mari Terhubung",
+        "description": "Terhubung secara profesional dengan saya."
+      },
+      "tiktok": {
+        "title": "Ikut Seru-seruan",
+        "description": "Tonton konten yang seru dan menarik."
+      },
+      "github": {
+        "title": "Jelajahi Kode",
+        "description": "Lihat karya open-source saya."
+      }
+    },
+    "form": {
+      "title": "Atau kirim saya pesan",
+      "input_name": "Nama",
+      "input_email": "Email",
+      "input_message": "Pesan",
+      "button": "Kirim Email"
+    }
+  },
+  "SmartTalkPage": {
+    "title": "Smart Talk",
+    "description": "Ruang berbasis AI untuk percakapan alami, penuh wawasan, dan eksplorasi ide."
+  },
+  "Footer": {
+    "hire": "Rekrut saya.",
+    "copyright_1": "HAK CIPTA © ",
+    "copyright_2": "AhmadMasum. Seluruh hak dilindungi."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇮🇩",
+    "label": "Bahasa"
+  },
+  "Navigation": {
+    "Home": "Beranda",
+    "About": "Tentang",
+    "Achievements": "Pencapaian",
+    "Projects": "Proyek",
+    "Dashboard": "Dasbor",
+    "Chat Room": "Ruang Obrolan",
+    "Contact": "Kontak",
+    "Smart Talk": "Smart Talk"
+  },
+  "NotFoundPage": {
+    "title": "Halaman tidak ditemukan",
+    "button": "Bawa saya ke beranda"
+  }
+}
