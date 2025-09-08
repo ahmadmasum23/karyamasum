@@ -3,7 +3,6 @@
 
 <br/>
 
-
 ## 📘 Introduction
 
 This is my personal website built from scratch since February 2024 using modern technologies such as Next.js and TypeScript.
