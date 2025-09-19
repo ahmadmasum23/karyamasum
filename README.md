@@ -3,7 +3,7 @@
   
 ## 📘 Introduction
 
-This is my personal website built from scratch since February 2024 using modern technologies such as Next.js and TypeScript.
+This is my personal website built from scratch since June 2025 using modern technologies such as Next.js and TypeScript.
 
 I use this platform to share projects, insights, and resources. The site is constantly evolving as I add more features and improvements.
 
