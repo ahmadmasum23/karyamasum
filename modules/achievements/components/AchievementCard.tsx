@@ -23,28 +23,32 @@ const AchievementCard = ({
   return (
     <Link href={url_credential} className="flex h-full" target="_blank">
       <SpotlightCard className="group flex h-full flex-col overflow-hidden">
-        <div className="relative">
+        <div className="relative h-[180px] overflow-hidden">
           <Image
             src={image}
             alt={name}
             width={500}
             height={200}
-            className="min-h-[180px] w-full rounded-t-xl object-cover md:h-[170px]"
+            className="h-full w-full object-cover object-center"
           />
           <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center gap-1 rounded-t-lg bg-black text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-80 dark:text-neutral-50">
             <span>{t("show_credential")}</span>
             <ViewIcon size={20} />
           </div>
         </div>
-        <div className="my-auto space-y-2 p-4">
-          {credential_id && (
-            <p className="text-sm text-neutral-500">{credential_id}</p>
-          )}
-          <p className="text-neutral-900 dark:text-neutral-300">{name}</p>
-          <p className="text-sm text-neutral-500 dark:text-neutral-400">
-            {issuing_organization}
-          </p>
-          <div className="space-y-1">
+        <div className="flex flex-1 flex-col justify-between space-y-2 p-4">
+          <div className="space-y-2">
+            {credential_id && (
+              <p className="text-sm text-neutral-500">{credential_id}</p>
+            )}
+            <h3 className="line-clamp-2 text-base font-medium text-neutral-900 dark:text-neutral-300">
+              {name}
+            </h3>
+            <p className="line-clamp-2 text-sm text-neutral-500 dark:text-neutral-400">
+              {issuing_organization}
+            </p>
+          </div>
+          <div className="mt-auto space-y-1">
             <p className="text-xs text-neutral-400 dark:text-neutral-500 ">
               Issued on
             </p>

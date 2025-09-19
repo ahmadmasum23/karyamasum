@@ -47,13 +47,14 @@ const Achievements = () => {
       )}
 
       {!isLoading && !error && filteredAchievements.length !== 0 && (
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {filteredAchievements?.map((item, index) => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
+              className="h-[400px]"
             >
               <AchievementCard {...item} />
             </motion.div>

@@ -67,6 +67,18 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     image: "/images/achievements/buildingIT.png",
     is_show: true,
   },
+  {
+    id: 7,
+    credential_id: "CERT-007",
+    name: "Gemini Certified Educator",
+    issuing_organization: "Google Gemini",
+    category: "certificate",
+    url_credential: "https://edu.google.accredible.com/3bee8019-2530-491c-9563-ed589d0989ec#acc.h5mf3SkJ",
+    issue_date: "2025-09-04",
+    image: "/images/achievements/gamini-aii.png",
+    is_show: true,
+  },
+
 ];
 
 // Helper functions untuk filtering
