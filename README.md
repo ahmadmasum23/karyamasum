@@ -1,5 +1,4 @@
   <h1>Ahmad Ma'sum</h1>
-  <h1>SMK Brantas</h1>
   <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, Supabase and more.</p> 
   
 ## 📘 Introduction
