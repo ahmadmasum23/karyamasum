@@ -95,7 +95,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     name: "Revou Software Engineer",
     issuing_organization: "RevoU",
     category: "certificate",
-    url_credential: "https://drive.google.com/file/d/1zeYWLM5BcFnXBQj6Mi_sd-U4T-pwhL2P/view?usp=sharing",
+    url_credential: "https://drive.google.com/file/d/1OTIS6362GFGBPIjGKszVH2xRTwwcgD8w/view",
     issue_date: "2025-09-04",
     image: "/images/achievements/revOU-softwaree.png",
     is_show: true,
