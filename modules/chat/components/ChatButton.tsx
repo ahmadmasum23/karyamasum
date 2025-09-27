@@ -4,7 +4,8 @@ import { useState } from "react";
 import { RiChatSmile2Line as ChatIcon } from "react-icons/ri";
 import { RiChatSmile3Line as ChatIconHover } from "react-icons/ri";
 import useChatStore from "@/common/stores/chat";
-import SpotifyWidget from "@/modules/spotify/components/SpotifyWidget";
+import ChatWidget from "./ChatWidget";
+// import SpotifyWidget from "@/modules/spotify/components/SpotifyWidget";
 import useIsMobile from "@/hooks/useIsMobile";
 import { useRouter } from "next/navigation";
 
@@ -31,7 +32,7 @@ const ChatButton = () => {
       >
         {isHover ? <ChatIconHover size={23} /> : <ChatIcon size={23} />}
       </div>
-      {!isMobile && isOpen && <SpotifyWidget />}
+      {!isMobile && isOpen && <ChatWidget  />}
     </>
   );
 };

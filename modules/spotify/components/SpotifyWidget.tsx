@@ -37,9 +37,9 @@ const SpotifyWidget = () => {
       >
         <SpotifyWidgetHeader />
         <div className="space-y-3 p-4">
-          {urls.map((u) => (
+          {/* {urls.map((u) => (
             <SpotifyEmbed key={u} url={u} />
-          ))}
+          ))} */}
         </div>
       </motion.div>
     </AnimatePresence>
