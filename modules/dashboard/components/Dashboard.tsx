@@ -15,7 +15,7 @@ const Dashboard = () => {
       <h1 className="text-center text-6xl font-semibold text-neutral-700 dark:text-neutral-300">
         Coming Soon
       </h1>
-      <Umami />
+      {/* <Umami />
       <Breakline className="my-8" />
       <Contributions endpoint={GITHUB_ACCOUNTS.endpoint} />
       <Breakline className="my-8" />
@@ -23,7 +23,7 @@ const Dashboard = () => {
       <Breakline className="my-8" />
       <Codewars endpoint={CODEWARS_ACCOUNT.endpoint} />
       <Breakline className="my-8" />
-      <Monkeytype />
+      <Monkeytype /> */}
     </>
   );
 };
