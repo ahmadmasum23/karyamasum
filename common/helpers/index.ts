@@ -3,7 +3,7 @@ import { format, parseISO } from "date-fns";
 
 export const convertToOrdinal = (number: number) => {
   if (typeof number !== "number") {
-    return "Invalid number";
+    return "-";
   }
 
   let suffix = "";

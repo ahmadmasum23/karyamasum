@@ -5,8 +5,8 @@
     "location_type": "Tatap Muka",
     "resume": "Seorang programmer junior yang bersemangat dan antusias dari Malang, Jawa Timur. Saat ini, saya adalah mahasiswa di SMK Brantas Karangkates, jurusan Software Engineering (RPL). Saya sangat tertarik dengan Pengembangan Front-End, Mobile Apps, Kecerdasan Buatan (AI), dan Pengembangan Chatbot. Saya selalu ingin mempelajari hal-hal baru dan menjelajahi teknologi baru.",
     "skills": {
-      "title": "Keahlian",
-      "sub_title": "Keahlian profesional saya."
+      "title": "Keahlian Pemula",
+      "sub_title": "Keahlian dasar yang sedang saya kembangkan."
     },
     "bento": {
       "title": "Bagian Unggulan",
@@ -117,7 +117,7 @@
       "title_test_started": "Tes Dimulai",
       "title_test_completed": "Tes Selesai",
       "title_time_typing": "Total Waktu Mengetik",
-      "title_leaderboard": "Papan Peringkat Bahasa Inggris Sepanjang Masa",
+      "title_leaderboard": "Papan Peringkat Bahasa Inggris",
       "unit_seconds": "detik",
       "unit_time": "waktu",
       "unit_words": "kata",
@@ -179,8 +179,14 @@
     }
   },
   "SmartTalkPage": {
-    "title": "Smart Talk",
-    "description": "Ruang berbasis AI untuk percakapan alami, penuh wawasan, dan eksplorasi ide."
+    "title": "Percakapan Cerdas",
+    "description": "Ruang berbasis AI untuk percakapan alami, penuh wawasan, dan eksplorasi ide.",
+    "welcome_message": "Halo! Saya asisten AI Ahmad Ma'sum. Anda bisa bertanya tentang latar belakang Ahmad, keahlian, proyek, atau apa pun yang ingin Anda ketahui!",
+    "chat_header_title": "Masum Talk",
+    "chat_header_subtitle": "Obrolan dengan Asisten AI Ahmad Ma'sum",
+    "clear_button":"Bersihkan", 
+    "input_hint":"Tekan Enter untuk mengirim, Shift+Enter untuk baris baru",
+    "input_placeholder":"Tanyakan padaku tentang Ahmad Ma'sum atau hal lainnya..."
   },
   "Footer": {
     "hire": "Rekrut saya.",
@@ -200,7 +206,7 @@
     "Dashboard": "Dasbor",
     "Chat Room": "Ruang Obrolan",
     "Contact": "Kontak",
-    "Smart Talk": "Smart Talk"
+    "Smart Talk": "Obrolan Pintar"
   },
   "NotFoundPage": {
     "title": "Halaman tidak ditemukan",

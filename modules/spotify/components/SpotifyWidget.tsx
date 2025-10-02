@@ -13,7 +13,7 @@ const SpotifyWidgetHeader = () => {
       </div>
       <a
         href={SPOTIFY_PROFILE_URL}
-        className="text-xs underline text-green-600 hover:text-green-500"
+        className="text-xs underline text-blue-600 hover:text-blue-500"
         target="_blank"
         rel="noreferrer"
       >

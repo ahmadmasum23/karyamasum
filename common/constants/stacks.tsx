@@ -6,7 +6,6 @@ import {
   SiHtml5,
   SiJavascript,
   SiNextdotjs,
-  SiNodedotjs,
   SiReact,
   SiTailwindcss,
   SiTypescript,
@@ -29,7 +28,7 @@ export type SkillProps = {
     icon: JSX.Element;
     background: string;
     color: string;
-    isActive?: boolean; // true = mahir, false = basic
+    isActive?: boolean; 
   };
 };
 
@@ -88,8 +87,8 @@ export const STACKS: SkillProps = {
   },
   "Vue.js": {
     icon: <SiVuedotjs size={iconSize} />,
-    background: "bg-green-400",
-    color: "text-green-400",
+    background: "bg-blue-400",
+    color: "text-blue-400",
     isActive: true, // basic
   },
   TailwindCSS: {
@@ -122,12 +121,6 @@ export const STACKS: SkillProps = {
     color: "text-blue-400",
     isActive: true,
   },
-  "Node.js": {
-    icon: <SiNodedotjs size={iconSize} />,
-    background: "bg-green-600",
-    color: "text-green-600",
-    isActive: true,
-  },
   SocketIO: {
     icon: <SiSocketdotio size={iconSize} />,
     background: "bg-neutral-700",
@@ -148,8 +141,8 @@ export const STACKS: SkillProps = {
   },
   MongoDb: {
     icon: <SiMongodb size={iconSize} />,
-    background: "bg-green-600",
-    color: "text-green-600",
+    background: "bg-blue-600",
+    color: "text-blue-600",
     isActive: true,
   },
   PostgreSql: {
@@ -194,6 +187,7 @@ export const STACKS: SkillProps = {
 // SiNestjs,
 // SiJest,
 // SiDocker,
+// SiNodedotjs,
 // SiKotlin,
 // SiReactrouter,
 // SiReacthookform,
@@ -214,6 +208,12 @@ export const STACKS: SkillProps = {
   //   icon: <SiReacthookform size={iconSize} />,
   //   background: "bg-pink-500",
   //   color: "text-pink-500",
+  //   isActive: true,
+  // },
+  // "Node.js": {
+  //   icon: <SiNodedotjs size={iconSize} />,
+  //   background: "bg-blue-600",
+  //   color: "text-blue-600",
   //   isActive: true,
   // },
   // "React Router": {

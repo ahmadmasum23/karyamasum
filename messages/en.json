@@ -5,8 +5,8 @@
     "location_type": "Onsite",
    "resume": "A passionate and enthusiastic junior programmer from Malang, East Java. I am currently a student at SMK Brantas Karangkates, majoring in Software Engineering (RPL). I have a strong interest in Front-End Development, Mobile Apps, Artificial Intelligence (AI), and Chatbot Development. I am always eager to learn new things and explore emerging technologies.",
     "skills": {
-      "title": "Skills",
-      "sub_title": "My professional skills."
+      "title": "Junior Skills",
+      "sub_title": "Basic skills that I am currently developing."
     },
     "bento": {
       "title": "Featured Sections",
@@ -181,7 +181,13 @@
   },
   "SmartTalkPage": {
     "title": "Smart Talk",
-    "description": "An AI-powered space for natural, insightful conversations and idea exploration."
+    "description": "An AI-powered space for natural, insightful conversations and idea exploration.",
+    "welcome_message": "Hello! I'm Ahmad Ma'sum's AI assistant. You can ask me about Ahmad's background, skills, projects, or anything else you'd like to know!",
+    "chat_header_title": "Mad's AI Assistant",
+    "chat_header_subtitle": "Chat with Ahmad Ma'sum's AI Assistant",
+    "clear_button":"Clear",
+    "input_hint":"Press Enter to send, Shift+Enter for new line",
+    "input_placeholder":"Ask me about Ahmad Ma'sum or anything else..."
   },
   "Footer": {
     "hire": "Hire me.",
