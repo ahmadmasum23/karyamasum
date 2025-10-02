@@ -57,6 +57,7 @@ const Monkeytype = () => {
           <Overview data={data} />
         </div>
       )}
+      
     </section>
   );
 };
