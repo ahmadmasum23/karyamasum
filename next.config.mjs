@@ -12,6 +12,21 @@ const nextConfig = {
       },
     ],
   },
+  // Environment variable validation
+  env: {
+    CUSTOM_BUILD_TIME: new Date().toISOString(),
+  },
+  // Optimize for Vercel deployment
+  experimental: {
+    serverComponentsExternalPackages: ['axios'],
+  },
+  // Better error handling in production
+  typescript: {
+    ignoreBuildErrors: false,
+  },
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
 };
 
 export default withNextIntl(nextConfig);
