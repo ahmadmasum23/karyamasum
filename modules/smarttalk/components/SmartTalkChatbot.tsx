@@ -10,7 +10,7 @@ import {
 import clsx from "clsx";
 
 import Container from "@/common/components/elements/Container";
-import Card from "@/common/components/elements/Card";
+import SpotlightCard from "@/common/components/elements/SpotlightCard";
 import Button from "@/common/components/elements/Button";
 
 interface Message {
@@ -137,7 +137,7 @@ const SmartTalkChatbot = () => {
         className="space-y-2"
       >
         {/* Chat Header */}
-        <Card className="bg-gradient-to-r from-blue-500 to-blue-600 p-4 sm:p-6 text-white">
+        <SpotlightCard className="p-4 sm:p-6 bg-white/20">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 sm:h-12 sm:w-12 aspect-square items-center justify-center rounded-full bg-white/20 text-white shrink-0">
@@ -185,7 +185,7 @@ const SmartTalkChatbot = () => {
             </Button>
           </div>
 
-        </Card>
+        </SpotlightCard>
 
         <AnimatePresence>
           {!isMinimized && (
@@ -196,7 +196,7 @@ const SmartTalkChatbot = () => {
               className="space-y-4"
             >
               {/* Messages Container */}
-              <Card className="h-[70vh] sm:h-[32rem] overflow-hidden">
+              <SpotlightCard className="h-[70vh] sm:h-[32rem] overflow-hidden">
                 <div className="flex h-full flex-col">
                   <div className="flex-1 overflow-y-auto p-3 sm:p-4 space-y-4">
                     {messages.map((message) => (
@@ -282,9 +282,9 @@ const SmartTalkChatbot = () => {
                     <div ref={messagesEndRef} />
                   </div>
                 </div>
-              </Card>
+              </SpotlightCard>
 
-              <Card className="p-3 sm:p-4">
+              <SpotlightCard className="p-3 sm:p-4">
                 <div className="flex gap-2">
                   <div className="flex-1 relative">
                     <textarea
@@ -325,7 +325,7 @@ const SmartTalkChatbot = () => {
                 <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
                   {t("input_hint") || "Press Enter to send, Shift+Enter for new line"}
                 </p>
-              </Card>
+              </SpotlightCard>
             </motion.div>
           )}
         </AnimatePresence>

@@ -186,7 +186,8 @@
     "chat_header_subtitle": "Obrolan dengan Asisten AI Ahmad Ma'sum",
     "clear_button":"Bersihkan", 
     "input_hint":"Tekan Enter untuk mengirim, Shift+Enter untuk baris baru",
-    "input_placeholder":"Tanyakan padaku tentang Ahmad Ma'sum atau hal lainnya..."
+    "input_placeholder":"Tanyakan padaku tentang Ahmad Ma'sum atau hal lainnya...",
+    "error_message":"Maaf, terjadi kesalahan. Silakan coba lagi nanti."
   },
   "Footer": {
     "hire": "Rekrut saya.",

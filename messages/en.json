@@ -187,7 +187,8 @@
     "chat_header_subtitle": "Chat with Ahmad Ma'sum's AI Assistant",
     "clear_button":"Clear",
     "input_hint":"Press Enter to send, Shift+Enter for new line",
-    "input_placeholder":"Ask me about Ahmad Ma'sum or anything else..."
+    "input_placeholder":"Ask me about Ahmad Ma'sum or anything else...",
+    "error_message":"Sorry, I encountered an error. Please try again later."
   },
   "Footer": {
     "hire": "Hire me.",

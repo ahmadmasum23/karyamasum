@@ -83,8 +83,9 @@ export async function POST(request: NextRequest) {
 
     const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
     if (!GEMINI_API_KEY) {
+      console.error("Gemini API: Missing GEMINI_API_KEY environment variable");
       return NextResponse.json(
-        { error: "Gemini API key not configured" },
+        { error: "Gemini API key not configured", details: "Missing required environment variables" },
         { status: 500 }
       );
     }
