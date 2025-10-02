@@ -43,7 +43,7 @@ const PERSONAL_DATA = {
   ],
   contact: {
     email: "ahmadmasum127@gmail.com", 
-    portfolio: process.env.DOMAIN || "http://localhost:3000",
+    portfolio: process.env.DOMAIN || "https://ahmadmasum23.vercel.app/",
   },
 };
 
