@@ -21,7 +21,8 @@ const ChatPage = () => {
     <Container data-aos="fade-up">
       <PageHeading title={t("title")} description={t("description")} />
       <div className="mt-6">
-        <ChatRoom />
+        <h1>Comingson</h1>
+        {/* <ChatRoom /> */}
       </div>
     </Container>
   );
