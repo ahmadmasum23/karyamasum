@@ -1,5 +1,4 @@
 import Breakline from "@/common/components/elements/Breakline";
-
 import Introduction from "./Introduction";
 import SkillList from "./SkillList";
 import BentoGrid from "./Bento/BentoGrid";
