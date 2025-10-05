@@ -1,5 +1,5 @@
 export const UMAMI_ACCOUNT = {
-  username: "Satria Bahari",
+  username: "AhmadMasum",
   api_key: process.env.UMAMI_API_KEY,
   base_url: "https://api.umami.is/v1/websites",
   endpoint: {

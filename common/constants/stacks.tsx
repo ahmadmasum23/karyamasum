@@ -21,6 +21,12 @@ import {
   SiLaravel,
   SiPython,
   SiFastapi,
+  SiVisualstudiocode,
+  SiOpenai,
+  SiX,
+  SiFigma,
+  SiCanva,
+  SiAndroid 
 } from "react-icons/si";
 
 export type SkillProps = {
@@ -28,152 +34,225 @@ export type SkillProps = {
     icon: JSX.Element;
     background: string;
     color: string;
-    isActive?: boolean; 
+    category: "language" | "framework" | "database" | "tool/ai";
+    isActive?: boolean;
   };
 };
 
 const iconSize = 26;
 
 export const STACKS: SkillProps = {
-  //  Languages
+  // Languages
   HTML: {
     icon: <SiHtml5 size={iconSize} />,
     background: "bg-orange-500",
     color: "text-orange-500",
+    category: "language",
     isActive: true,
   },
   CSS: {
     icon: <SiCss3 size={iconSize} />,
     background: "bg-blue-500",
     color: "text-blue-500",
+    category: "language",
     isActive: true,
   },
   JavaScript: {
     icon: <SiJavascript size={iconSize} />,
     background: "bg-yellow-400",
     color: "text-yellow-400",
+    category: "language",
     isActive: true,
   },
   TypeScript: {
     icon: <SiTypescript size={iconSize} />,
     background: "bg-blue-500",
     color: "text-blue-500",
+    category: "language",
     isActive: true,
   },
   Dart: {
     icon: <SiDart size={iconSize} />,
     background: "bg-blue-600",
     color: "text-blue-600",
+    category: "language",
     isActive: true,
   },
   Python: {
     icon: <SiPython size={iconSize} />,
     background: "bg-yellow-500",
     color: "text-yellow-500",
+    category: "language",
     isActive: true,
   },
-  // Frontend Frameworks & Libraries
+
+  // Frameworks
   "React.js": {
     icon: <SiReact size={iconSize} />,
     background: "bg-cyan-400",
     color: "text-cyan-400",
+    category: "framework",
     isActive: true,
   },
   "Next.js": {
     icon: <SiNextdotjs size={iconSize} />,
     background: "bg-neutral-800",
     color: "text-neutral-50",
+    category: "framework",
     isActive: true,
   },
   "Vue.js": {
     icon: <SiVuedotjs size={iconSize} />,
     background: "bg-blue-400",
     color: "text-blue-400",
-    isActive: true, // basic
-  },
-  TailwindCSS: {
-    icon: <SiTailwindcss size={iconSize} />,
-    background: "bg-sky-400",
-    color: "text-sky-400",
+    category: "framework",
     isActive: true,
-  },
-  Bootstrap: {
-    icon: <BsFillBootstrapFill size={iconSize} />,
-    background: "bg-violet-600",
-    color: "text-violet-600",
-    isActive: true, // basic
-  },
-  Vite: {
-    icon: <SiVite size={iconSize} />,
-    background: "bg-purple-500",
-    color: "text-purple-500",
-    isActive: true, // basic
   },
   Laravel: {
     icon: <SiLaravel size={iconSize} />,
     background: "bg-red-600",
     color: "text-red-600",
+    category: "framework",
     isActive: true,
   },
   Flutter: {
     icon: <SiFlutter size={iconSize} />,
     background: "bg-blue-400",
     color: "text-blue-400",
+    category: "framework",
+    isActive: true,
+  },
+  FastAPI: {
+    icon: <SiFastapi size={iconSize} />,
+    background: "bg-emerald-600",
+    color: "text-emerald-600",
+    category: "framework",
+    isActive: true,
+  },
+  TailwindCSS: {
+    icon: <SiTailwindcss size={iconSize} />,
+    background: "bg-sky-400",
+    color: "text-sky-400",
+    category: "framework",
+    isActive: true,
+  },
+  Bootstrap: {
+    icon: <BsFillBootstrapFill size={iconSize} />,
+    background: "bg-violet-600",
+    color: "text-violet-600",
+    category: "framework",
+    isActive: true,
+  },
+  Vite: {
+    icon: <SiVite size={iconSize} />,
+    background: "bg-purple-500",
+    color: "text-purple-500",
+    category: "framework",
     isActive: true,
   },
   SocketIO: {
     icon: <SiSocketdotio size={iconSize} />,
     background: "bg-neutral-700",
     color: "text-neutral-700",
-    isActive: true,
-  },  
-  FastAPI: {
-    icon: <SiFastapi size={iconSize} />,
-    background: "bg-emerald-600",
-    color: "text-emerald-600",
+    category: "framework",
     isActive: true,
   },
+
+  // Database
   MySql: {
     icon: <SiMysql size={iconSize} />,
     background: "bg-cyan-700",
     color: "text-cyan-700",
+    category: "database",
     isActive: true,
   },
   MongoDb: {
     icon: <SiMongodb size={iconSize} />,
     background: "bg-blue-600",
     color: "text-blue-600",
+    category: "database",
     isActive: true,
   },
   PostgreSql: {
     icon: <BiLogoPostgresql size={iconSize} />,
     background: "bg-blue-500",
     color: "text-blue-500",
+    category: "database",
     isActive: true,
   },
   Firebase: {
     icon: <SiFirebase size={iconSize} />,
     background: "bg-amber-500",
     color: "text-amber-500",
-    isActive: true, // basic
+    category: "database",
+    isActive: true,
   },
   Supabase: {
     icon: <SiSupabase size={iconSize} />,
     background: "bg-emerald-500",
     color: "text-emerald-500",
-    isActive: true, // basic
-  },
-  AI: {
-    icon: <BsRobot size={iconSize} />,
-    background: "bg-fuchsia-700",
-    color: "text-fuchsia-700",
+    category: "database",
     isActive: true,
   },
+
+  // Tools / Others
   Github: {
     icon: <SiGithub size={iconSize} />,
     background: "bg-slate-800",
     color: "text-neutral-50",
+    category: "tool/ai",
     isActive: true,
+  },
+  VSCode: {
+    icon: <SiVisualstudiocode size={iconSize} />, 
+    background: "bg-blue-600",
+    color: "text-blue-600",
+    isActive: true,
+    category: "tool/ai",
+  },
+  AndroidStudio: {
+    icon: <SiAndroid size={iconSize} />,
+    background: "bg-green-600",
+    color: "text-white",
+    isActive: true,
+    category: "tool/ai",
+  },
+  Figma: {
+    icon: <SiFigma size={iconSize} />,
+    background: "bg-gradient-to-r from-[#F24E1E] via-[#A259FF] to-[#1ABCFE]",
+    color: "text-[#F24E1E]",
+    isActive: true,
+    category: "tool/ai",
+  },
+  Canva: {
+    icon: <SiCanva size={iconSize} />,
+    background: "bg-[#00C4CC]",
+    color: "text-[#00C4CC]",
+    isActive: true,
+    category: "tool/ai",
+  },
+
+  // AI
+  AI: {
+    icon: <BsRobot size={iconSize} />,
+    background: "bg-fuchsia-700",
+    color: "text-fuchsia-700",
+    category: "tool/ai",
+    isActive: true,
+  },
+  ChatGPT:{
+    icon: <SiOpenai size={iconSize}/>,
+    background: "bg-emerald-600",
+    color: "text-emerald-600",
+    isActive: true,
+    category: "tool/ai",
+  },
+  Grok: {
+    icon: <SiX size={24 }/>,
+    background: "bg-neutral-800",
+    color: "text-neutral-50",
+    isActive: true,
+    category: "tool/ai",
   },
 };
 

@@ -4,8 +4,8 @@ const TrueFocusService = () => {
   return (
     <div className="flex h-full items-center justify-center px-8 py-6">
       <TrueFocus
-        sentence="Mobile AI "
-        // sentence="Web Mobile AI UI/UX"
+        //sentence="Mobile AI Web"
+        sentence="Web Mobile AI UI/UX"
         manualMode={false}
         blurAmount={5}
         borderColor="green"

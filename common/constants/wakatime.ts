@@ -1,5 +1,5 @@
 export const WAKATIME_ACCOUNT = {
-  username: "SatriaAxel",
+  username: "Ahmad Masum",
   api_key: process.env.WAKATIME_API_KEY,
   stats_endpoint: "/stats",
   all_time_endpoint: "/all_time_since_today",
