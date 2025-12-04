@@ -144,6 +144,28 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     image: "/images/achievements/id-network-proxmox.png",
     is_show: true,
   },
+  {
+    id: 14,
+    credential_id: "CERT-014",
+    name: "Basic BGP di Juniper",
+    issuing_organization: "ID-Networkers",
+    category: "certificate",
+    url_credential: "https://drive.google.com",
+    issue_date: "2025-11-27",
+    image: "/images/achievements/id-network-juniper.png",
+    is_show: true,
+  },
+  {
+    id: 15,
+    credential_id: "CERT-015",
+    name: "Dasar-dasar Data Center untuk Profesional IT",
+    issuing_organization: "ID-Networkers",
+    category: "certificate",
+    url_credential: "https://drive.google.com",
+    issue_date: "2025-11-29",
+    image: "/images/achievements/id-network-data.png",
+    is_show: true,
+  },
 
 ];
 
