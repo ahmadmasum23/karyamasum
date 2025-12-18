@@ -81,11 +81,11 @@ All stats fetched from public APIs and rendered dynamically.`,
         slug: "ChattM",
         description: "Real-time chat application built with React, Socket.IO, and MongoDB. Designed for seamless communication with instant messaging, user authentication, and responsive UI.",
         image: "/images/projects/ChattM.png",
-        stacks: ["socketio", "TypeScript", "TailwindCSS", "React.js"],
+        stacks: ["socketio", "TailwindCSS", "React.js"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
-        is_featured: true,
+        is_featured: false,
         content: `## 💬 Chat Website
 Ini adalah aplikasi website chat yang dibangun untuk memudahkan komunikasi real-time antar pengguna.
 
@@ -117,11 +117,11 @@ Performa
         slug: "tad-ai",
         description: "Cross-platform Islamic chatbot application built with Flutter, FastAPI, and Supabase. Provides Quran assistance, tafsir, translations, voice interaction, and personalized user experience.",
         image: "/images/projects/islambot.png",
-        stacks: ["flutter", "dart", "firebase", "stripe"],
+        stacks: ["Flutter", "Supabase","FastAPI","MongoDb","Python"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
-        is_featured: false,
+        is_featured: true,
         content: `## 📖 TAD AI - Islam Chatbot App
 Aplikasi chatbot Islami yang membantu pengguna dalam belajar Al-Qur’an, tafsir, dan pengetahuan Islam, dibangun dengan Flutter untuk lintas platform.
 
@@ -150,14 +150,14 @@ Aplikasi chatbot Islami yang membantu pengguna dalam belajar Al-Qur’an, tafsir
 - **Desain mobile-first** dengan UI sederhana & ramah pengguna  
 - **Akurat & relevan** dalam menjawab pertanyaan seputar Islam  
 - **Rating pengguna tinggi** berkat kemudahan dan manfaat aplikasinya`,
-            },
+    },
     {
         id: 4,
         title: "Quranni",
         slug: "quranni-apps",
         description: "Web-based Quran learning and recitation assistant built with Vue.js. Features include interactive verse display, error marking for murajaah and tahsin, local data storage, and recap results for teachers and students.",
         image: "/images/projects/iqurani.png",
-        stacks: ["React.js", "Node.js", "mongodb", "socketio"],
+        stacks: ["Vue.js", "Supabase", "React.js", "TypeScript"],
         link_demo: "https://quranni.vercel.app",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
@@ -194,7 +194,7 @@ Aplikasi web interaktif untuk membantu murajaah, tahsin, dan hafalan Al-Qur’an
         slug: "taks-todolist",
         description: "Cross-platform To-Do List application built with Flutter and Supabase. Supports real-time task management, user authentication, and seamless synchronization across devices.",
         image: "/images/projects/listM.png",
-        stacks: ["React.js", "Node.js", "mongodb", "socketio"],
+        stacks: ["Flutter", "Supabase",],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
@@ -226,6 +226,47 @@ A simple yet powerful task management mobile app built with Flutter and Supabase
 - Combines simplicity with modern technology stack  
 - Perfect for students, professionals, or anyone managing daily activities`,
     },
+    {
+        id: 6,
+        title: "QuickPOS – Flutter Cashier System",
+        slug: "quickpos",
+        description: "A modern Point of Sale (POS) application built with Flutter, Supabase, and GetX. Designed to help stores manage transactions, products, and customers efficiently with real-time synchronization.",
+        image: "/images/projects/QuickPos.png",
+        stacks: ["Flutter", "Supabase", "PostgreSQL"],
+        link_demo: "",
+        link_github: "https://github.com/ahmadmasum23",
+        is_show: true,
+        is_featured: false,
+        content: `## 💳 QuickPOS – Flutter Cashier System
+A complete Point of Sale (POS) application built using Flutter with Supabase as the backend. Designed for small businesses and stores to handle daily operations easily and efficiently.
+
+### Key Features
+
+- **Transaction Management** – Create, update, and process customer transactions  
+- **Product Management** – Add, edit, categorize, and manage store products  
+- **Customer Data** – Save and manage customer information  
+- **Real-Time Sync** – All data stored and updated instantly through Supabase  
+- **User Authentication** – Secure login & session management with Supabase Auth  
+- **Fast & Reactive UI** – Powered by GetX state management  
+- **Reports & Recap** – Daily and monthly sales recap  
+
+### Technical Implementation
+
+- **Flutter Framework** – Fast cross-platform mobile development  
+- **Supabase** – Authentication, database, and real-time data sync  
+- **PostgreSQL Database** – Reliable and structured data storage  
+- **GetX** – State management, routing, and dependency injection  
+- **RESTful API Integration** – Efficient communication between client and backend  
+
+### Benefits
+
+- Helps store owners manage transactions seamlessly  
+- Lightweight, responsive, and suitable for mobile POS usage  
+- Modern tech stack with real-time synchronization  
+- Ideal for UMKM, small shops, and digital cashier systems  
+`,
+    }
+
 ];
 
 // Helper functions untuk filtering dan searching
