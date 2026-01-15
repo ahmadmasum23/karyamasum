@@ -22,7 +22,7 @@ const ProfileHeader = ({ expandMenu, imageSize }: ProfileHeaderProps) => {
       )}
     >
       <Image
-        src={"/images/masum-4.jpg"}
+        src={"/images/masm.png"}
         width={expandMenu ? 80 : imageSize * 0.9}
         height={expandMenu ? 80 : imageSize * 0.9}
         alt="Ahmad Ma'sum"

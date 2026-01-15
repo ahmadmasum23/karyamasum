@@ -77,8 +77,8 @@ export const BENTO: BentoItemProps[] = [
     isShow: true,
   },
   {
-    title: "Services",
-    description: "End-to-end solutions in web, mobile, AI, and design.",
+    title: "Learning",
+    description: "On a journey into web, mobile, AI, and cybersecurity.",
     label: "Services",
     icon: <DashboardIcon size={size} />,
     visual: <TrueFocusService />,
