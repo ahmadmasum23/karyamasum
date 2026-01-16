@@ -1,6 +1,17 @@
 import { createServerClient } from "@supabase/ssr";
 import { createClient as createAdminServerClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
+type CookieItem = {
+  name: string;
+  value: string;
+  options?: {
+    path?: string;
+    maxAge?: number;
+    httpOnly?: boolean;
+    secure?: boolean;
+    sameSite?: "lax" | "strict" | "none";
+  };
+};
 
 export const createClient = () => {
   const cookieStore = cookies();
@@ -13,7 +24,7 @@ export const createClient = () => {
         getAll() {
           return cookieStore.getAll();
         },
-        setAll(cookiesToSet) {
+        setAll(cookiesToSet: CookieItem[]) {
           try {
             cookiesToSet.forEach(({ name, value, options }) => {
               cookieStore.set(name, value, options);
