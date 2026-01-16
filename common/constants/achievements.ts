@@ -166,6 +166,17 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     image: "/images/achievements/id-network-data.png",
     is_show: true,
   },
+  {
+    id: 16,
+    credential_id: "CERT-016",
+    name: "Web Exploitation CTF – Participant",
+    issuing_organization: "Revolusiber",
+    category: "certificate",
+    url_credential: "https://drive.google.com/file/d/1PVBNAaxv9DpL2Iwy-03gp4Rbqk0D2wmb/view?usp=sharing",
+    issue_date: "2025-12-21",
+    image: "/images/achievements/Revolusiber-CTF.png",
+    is_show: true,
+  },
 
 ];
 
