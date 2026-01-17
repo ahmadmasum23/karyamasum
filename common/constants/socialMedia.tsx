@@ -30,7 +30,7 @@ export const SOCIAL_MEDIA: SocialMediaProps[] = [
     title: "Follow My Journey",
     description: "Stay updated with my latest posts and stories on Instagram.",
     name: "instagram",
-    href: "https://www.instagram.com/ahmdmasm127/",
+    href: "https://www.instagram.com/ahmadmsum/",
     icon: <InstagramIcon size={iconSize} />,
     backgroundIcon: <InstagramIcon size={backgroundIconSize} />,
     textColor: "text-purple-200",
