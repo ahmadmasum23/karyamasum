@@ -177,6 +177,17 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     image: "/images/achievements/Revolusiber-CTF.png",
     is_show: true,
   },
+  {
+    id: 17,
+    credential_id: "CERT-017",
+    name: "Basic Mobile Pentesting ",
+    issuing_organization: "ID-Networkers",
+    category: "certificate",
+    url_credential: "https://drive.google.com/file/d/17TM8g354Ipwq-tsWQiIoNxqGU0F62K1h/view?usp=sharing",
+    issue_date: "2026-01-27",
+    image: "/images/achievements/id-network-mobilepentesting.png",
+    is_show: true,
+  },
 
 ];
 
