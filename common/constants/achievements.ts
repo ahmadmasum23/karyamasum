@@ -188,6 +188,28 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     image: "/images/achievements/id-network-mobilepentesting.png",
     is_show: true,
   },
+  {
+    id: 18,
+    credential_id: "CERT-018",
+    name: "Solusi Praktis Membangun Sistem Keamanan Dari Nol",
+    issuing_organization: "ID-Networkers",
+    category: "certificate",
+    url_credential: "https://drive.google.com/file/d/18iG2X8uGBgSefBhosePOGw5cpVuLbKHp/view?usp=sharing",
+    issue_date: "2026-01-29",
+    image: "/images/achievements/id-network-solusisistem.png",
+    is_show: true,
+  },
+  {
+    id: 19,
+    credential_id: "CERT-019",
+    name: "Final Tryout SNBT 2026",
+    issuing_organization: "Jawa Pos Radar Malang & Genza Education",
+    category: "certificate",
+    url_credential: "https://drive.google.com/file/d/1vTYAVjAPVYYyE2nlgxnQSouvKwjV0orF/view?usp=sharing",
+    issue_date: "2026-02-11",
+    image: "/images/achievements/sertivrSNBT.jpeg",
+    is_show: true,
+  },
 
 ];
 
