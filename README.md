@@ -13,24 +13,6 @@ Have feedback, ideas, or questions? Don’t hesitate to reach out! 🙌
 
 ---
 
-## Tech Stack
-
-This website is built using these technologies:
-
-- **⚛️ Next.js**
-- **🔰 TypeScript**
-- **💠 Tailwind CSS v3**
-- **🦫 Zustand**
-- **〰️ SWR**
-- **➰ Framer Motion**
-- **💢 React Icons**
-- **🌐 Next-Intl (i18n)**
-- **📦 Absolute Imports & Path Alias**
-- **📏 ESLint & Prettier**
-- **📌 Conventional Commit Lint**
-
----
-
 ## 🚀 Features
 
 ### 🕗 Wakatime Statistics
