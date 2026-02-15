@@ -117,7 +117,7 @@ Performa
         slug: "tad-ai",
         description: "Cross-platform Islamic chatbot application built with Flutter, FastAPI, and Supabase. Provides Quran assistance, tafsir, translations, voice interaction, and personalized user experience.",
         image: "/images/projects/islambot.png",
-        stacks: ["Flutter", "Supabase","FastAPI","MongoDb","Python"],
+        stacks: ["Flutter", "Supabase", "FastAPI", "MongoDb", "Python"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
@@ -265,7 +265,48 @@ A complete Point of Sale (POS) application built using Flutter with Supabase as 
 - Modern tech stack with real-time synchronization  
 - Ideal for UMKM, small shops, and digital cashier systems  
 `,
+    },
+    {
+        id: 7,
+        title: "siPinjam - Flutter Equipment Borrowing System",
+        slug: "siPinjam",
+        description: "A modern equipment borrowing application built with Flutter, Supabase, and GetX. Designed to help institutions manage item lending, borrower data, and return tracking efficiently with real-time synchronization.",
+        image: "/images/projects/siPinjam.png",
+        stacks: ["Flutter", "Supabase", "PostgreSQL"],
+        link_demo: "",
+        link_github: "https://github.com/ahmadmasum23",
+        is_show: true,
+        is_featured: false,
+        content: `## 📦 siPinjam – Flutter Equipment Borrowing System
+A complete item borrowing management application built using Flutter with Supabase as the backend. Designed for schools, campuses, or organizations to manage equipment lending and return processes efficiently.
+
+### Key Features
+
+- **Borrowing Management** – Create, approve, and track item borrowing  
+- **Return Tracking** – Monitor item returns and status updates  
+- **Item Management** – Add, edit, categorize, and manage available items  
+- **Borrower Data** – Store and manage borrower information  
+- **Real-Time Sync** – All data stored and updated instantly through Supabase  
+- **User Authentication** – Secure login & role-based access using Supabase Auth  
+- **History & Reports** – Borrowing history and recap reports  
+
+### Technical Implementation
+
+- **Flutter Framework** – Fast cross-platform mobile development  
+- **Supabase** – Authentication, database, and real-time data sync  
+- **PostgreSQL Database** – Reliable and structured data storage  
+- **GetX** – State management, routing, and dependency injection  
+- **RESTful API Integration** – Efficient communication between client and backend  
+
+### Benefits
+
+- Helps institutions manage equipment lending efficiently  
+- Reduces manual recording errors  
+- Lightweight, responsive, and suitable for mobile usage  
+- Modern tech stack with real-time synchronization  
+`,
     }
+
 
 ];
 
