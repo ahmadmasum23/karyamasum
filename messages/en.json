@@ -3,7 +3,7 @@
     "intro": "Hi, I'm Ahmad Ma'sum 👋",
     "location": "Based in Malang, Indonesia 🇮🇩",
     "location_type": "Onsite",
-   "resume": "A passionate and enthusiastic junior programmer from Malang, East Java. I am currently a student at SMK Brantas Karangkates, majoring in Software Engineering (RPL). I have a strong interest in Front-End Development, Mobile Apps, Artificial Intelligence (AI), and Chatbot Development. I am always eager to learn new things and explore emerging technologies.",
+   "resume": "A passionate and enthusiastic junior programmer from Malang, East Java. I am Ahmad Ma'sum currently a student at SMK Brantas Karangkates, majoring in Software Engineering (RPL). I have a strong interest in Front-End Development, Mobile Apps, Artificial Intelligence (AI), and Chatbot Development. I am always eager to learn new things and explore emerging technologies.",
     "skills": {
       "title": "Junior Skills",
       "sub_title": "Basic skills that I am currently developing."
@@ -169,6 +169,14 @@
       "github": {
         "title": "Explore the Code",
         "description": "Explore my open-source work."
+      },
+      "telegram": {
+        "title": "Connect on Telegram",
+        "description": "Chat with me directly on Telegram."
+      },
+      "whatsapp": {
+        "title": "Connect on WhatsApp",
+        "description": "Chat with me directly on WhatsApp."
       }
     },
     "form": {

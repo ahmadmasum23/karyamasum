@@ -3,6 +3,8 @@ import {
   BsInstagram as InstagramIcon,
   BsLinkedin as LinkedinIcon,
   BsTiktok as TiktokIcon,
+  BsTelegram as TelegramIcon,
+  BsWhatsapp as WhatsappIcon,
 } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 
@@ -74,6 +76,7 @@ export const SOCIAL_MEDIA: SocialMediaProps[] = [
     description: "Explore the source code for all my projects on GitHub.",
     name: "github",
     href: "https://github.com/ahmadmasum23",
+    // href: "https://github.com/ahmadmasum23",
     icon: <GithubIcon size={iconSize} />,
     backgroundIcon: <GithubIcon size={backgroundIconSize} />,
     textColor: "text-slate-400",
@@ -82,4 +85,31 @@ export const SOCIAL_MEDIA: SocialMediaProps[] = [
     backgroundGradientColor: "bg-gradient-to-b from-slate-900 to-slate-950",
     isShow: true,
   },
+  {
+    title: "Connect on Telegram",
+    description: "Chat with me directly on Telegram for collaboration or discussion.",
+    name: "telegram",
+    href: "https://t.me/ahmadmsum",
+    icon: <TelegramIcon size={iconSize} />,
+    backgroundIcon: <TelegramIcon size={backgroundIconSize} />,
+    textColor: "text-blue-400",
+    backgroundColor: "bg-blue-400",
+    borderColor: "border-blue-400",
+    backgroundGradientColor: "bg-gradient-to-b from-blue-900 to-blue-950",
+    isShow: true,
+  },
+  {
+    title: "Connect on Telegram",
+    description: "Chat with me directly on Telegram for collaboration or discussion.",
+    name: "whatsapp",
+    href: "https://wa.me/6287873612458",
+    icon: <WhatsappIcon size={iconSize} />,
+    backgroundIcon: <WhatsappIcon size={backgroundIconSize} />,
+    textColor: "text-green-400",
+    backgroundColor: "bg-green-400",
+    borderColor: "border-green-400",
+    backgroundGradientColor: "bg-gradient-to-b from-green-900 to-green-950",
+    isShow: true,
+  },
+
 ];

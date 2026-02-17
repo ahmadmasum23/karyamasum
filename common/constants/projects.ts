@@ -3,309 +3,271 @@ import { ProjectItem } from "../types/projects";
 export const PROJECTS_DATA: ProjectItem[] = [
     {
         id: 1,
-        title: "Ahmad Masum - Personal Website",
+        title: "Ahmad Masum – Fullstack Developer Portfolio",
         slug: "ahmadmasum23",
-        description: "Personal website built with Next.js, TypeScript, and modern web technologies. Features include portfolio showcase, developer stats, and internationalization support.",
-        image: "/images/projects/portomasum.png",
+        description: "Website pribadi yang dibangun menggunakan Next.js, TypeScript, dan teknologi web modern. Menampilkan portofolio, statistik developer, serta dukungan multi-bahasa.",
+        image: "/images/projects/webporto.png",
         stacks: ["Next.js", "TypeScript", "TailwindCSS", "framer-motion"],
-        link_demo: "",
+        link_demo: "https://ahmadmasum.vercel.app",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
         is_featured: true,
-        content: `## 📘 Introduction
+        content: `## 🌐 Tentang Website Ini
 
-This is my personal website built from scratch since **February 2024** using modern technologies like **Next.js** and **TypeScript**.
+Website ini adalah website pribadi yang saya gunakan sebagai media untuk memperkenalkan diri secara profesional di dunia digital.
 
-I use this platform to:
+Melalui website ini, pengunjung dapat:
 
-- Showcase my portfolio and projects
-- Share developer resources and stats
-- Experiment with new web technologies
+- Mengenal saya lebih jauh
+- Melihat daftar proyek yang pernah saya kerjakan
+- Melihat pencapaian dan pengalaman saya
+- Mengakses arsip proyek (project archive)
+- Menghubungi saya melalui halaman kontak
 
-The site is continuously evolving. You're welcome to fork or explore the source code. If you find it helpful, consider giving it a ⭐ on GitHub.
+Website ini dibangun menggunakan **Next.js**, **TypeScript**, dan berbagai teknologi web modern lainnya untuk memberikan performa yang cepat, tampilan yang responsif, serta pengalaman pengguna yang nyaman.
 
-Have questions or feedback? I'd love to hear from you 🙌
+Selain itu, website ini juga mendukung **multi-bahasa (Bahasa Indonesia & English)** agar dapat diakses oleh audiens yang lebih luas.
 
----
-
-## ⚙️ Tech Stack
-
-This project is powered by:
-
-- ⚛️ **Next.js**
-- 🔰 **TypeScript**
-- 💠 **Tailwind CSS v3**
-- 🦫 **Zustand**
-- 〰️ **SWR**
-- ➰ **Framer Motion**
-- 💢 **React.js Icons**
-- 🌐 **Next-Intl (i18n)**
-- 📦 **Absolute Imports & Path Alias**
-- 📏 **ESLint & Prettier**
-- 📌 **Conventional Commit Lint**
-
----
-
-## 🚀 Features
-
-### 🕗 Wakatime Stats
-
-Displays live coding stats from Wakatime via serverless API routes using \`api/wakatime\`
-
-### 🗳 Project Showcase
-
-Project data is stored in **Supabase PostgreSQL**, and displayed using:
-
-- **ISR (1s revalidation)**
-- **SSR for fast access**
-
-### 🌍 Internationalization
-
-Multi-language support with \`next-intl\`
-Currently includes Bahasa Indonesia and English.
-
-### 📊 Developer Dashboard
-
-Interactive dashboard showing:
-
-- GitHub contributions
-- Wakatime coding hours
-- Codewars challenges
-- Monkeytype typing speeds
-
-All stats fetched from public APIs and rendered dynamically.`,
+Tujuan utama website ini adalah sebagai representasi digital dari perjalanan belajar dan pengembangan saya di bidang teknologi, sekaligus menjadi tempat untuk menampilkan karya, eksperimen, dan perkembangan skill saya dari waktu ke waktu.`
     },
     {
         id: 2,
-        title: "Chat-M",
+        title: "ChatM – Fullstack Real Time Messaging App",
         slug: "ChattM",
-        description: "Real-time chat application built with React, Socket.IO, and MongoDB. Designed for seamless communication with instant messaging, user authentication, and responsive UI.",
+        description: "Aplikasi chat real-time berbasis web yang dibangun menggunakan React, Socket.IO, dan MongoDB untuk menghadirkan komunikasi instan yang cepat dan responsif.",
         image: "/images/projects/ChattM.png",
         stacks: ["socketio", "TailwindCSS", "React.js"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
         is_featured: false,
-        content: `## 💬 Chat Website
-Ini adalah aplikasi website chat yang dibangun untuk memudahkan komunikasi real-time antar pengguna.
+        content: `## 💬 Chat-M – Aplikasi Chat Real-Time
 
-Fitur Utama
+Chat-M adalah aplikasi website chat yang saya kembangkan untuk memungkinkan komunikasi real-time antar pengguna secara cepat dan efisien.
 
-- **Real-Time Messaging** - Kirim dan terima pesan secara instan dengan Socket.IO  
-- **User Authentication** - Sistem login & register untuk keamanan pengguna  
-- **Chat Rooms/Private Chat** - Mendukung percakapan grup maupun pribadi  
-- **Media Sharing** - Dapat mengirim gambar dan file dalam obrolan  
-- **Responsive Design** - Dapat digunakan di berbagai perangkat (desktop & mobile)  
+Aplikasi ini dirancang untuk memberikan pengalaman berkirim pesan yang instan, aman, dan nyaman digunakan di berbagai perangkat.
 
-Teknologi yang Digunakan
+### 🚀 Fitur Utama
 
-- **React.js** untuk membangun antarmuka pengguna interaktif  
-- **Socket.IO** untuk komunikasi real-time  
-- **MongoDB** untuk penyimpanan data pesan & pengguna  
-- **Node.js + Express** sebagai backend server  
+- **Pesan Real-Time** – Mengirim dan menerima pesan secara langsung tanpa perlu refresh halaman  
+- **Autentikasi Pengguna** – Sistem login dan registrasi untuk menjaga keamanan akun  
+- **Ruang Obrolan & Chat Pribadi** – Mendukung percakapan grup maupun pesan langsung antar pengguna  
+- **Berbagi Media** – Pengguna dapat mengirim gambar atau file dalam percakapan  
+- **Tampilan Responsif** – Dapat digunakan dengan nyaman di desktop maupun perangkat mobile  
 
-Performa
+### ⚙️ Teknologi yang Digunakan
 
-- **Pesan instan tanpa delay**  
-- **Skalabilitas tinggi** untuk banyak pengguna sekaligus  
-- **Mobile-first design** agar nyaman di perangkat seluler  
-- **Aman & terpercaya** dengan autentikasi pengguna`,
+- **React.js** – Membangun antarmuka pengguna yang interaktif  
+- **Socket.IO** – Menangani komunikasi real-time berbasis WebSocket  
+- **MongoDB** – Menyimpan data pengguna dan riwayat pesan  
+- **Node.js & Express** – Backend server untuk mengelola API dan koneksi  
+
+### 🎯 Tujuan Proyek
+
+Proyek ini dibuat sebagai eksplorasi dalam membangun sistem komunikasi real-time serta memahami cara kerja WebSocket, autentikasi pengguna, dan manajemen database dalam aplikasi modern berbasis web.`
     },
     {
         id: 3,
-        title: "Islambot",
+        title: "Islambot – Flutter AI Powered Islamic Assistant",
         slug: "tad-ai",
-        description: "Cross-platform Islamic chatbot application built with Flutter, FastAPI, and Supabase. Provides Quran assistance, tafsir, translations, voice interaction, and personalized user experience.",
+        description: "Aplikasi chatbot Islami lintas platform yang dibangun menggunakan Flutter, FastAPI, dan Supabase untuk membantu pengguna mempelajari Al-Qur’an, tafsir, dan pengetahuan Islam secara interaktif.",
         image: "/images/projects/islambot.png",
-        stacks: ["Flutter", "Supabase", "FastAPI", "MongoDb", "Python"],
+        stacks: ["Flutter", "Supabase", "FastAPI"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
-        is_featured: true,
-        content: `## 📖 TAD AI - Islam Chatbot App
-Aplikasi chatbot Islami yang membantu pengguna dalam belajar Al-Qur’an, tafsir, dan pengetahuan Islam, dibangun dengan Flutter untuk lintas platform.
+        is_featured: false,
+        content: `## 📖 Islambot – Aplikasi Chatbot Islam
 
-### Fitur Utama
+Islambot adalah aplikasi chatbot Islami yang saya kembangkan untuk membantu pengguna dalam memahami Al-Qur’an, tafsir, dan berbagai pengetahuan dasar Islam secara praktis dan interaktif.
 
-- **Qur’an Assistance**- Menjawab pertanyaan seputar surah, ayat, tafsir, dan terjemahan  
-- **Islamic Knowledge**- Memberikan informasi terkait hukum, doa, dan ilmu dasar Islam  
-- **Voice Chat**- Nikmati interaksi dengan bot menggunakan suara (voic-t-text & tex-t-speech)  
-- **User Authentication**- Login & register menggunakan Supabase Auth  
-- **Personalized Experience**- Menyesuaikan jawaban sesuai kebutuhan pengguna  
-- **History Chat**- Menyimpan riwayat percakapan pengguna di database Supabase  
+Aplikasi ini dirancang agar pengguna dapat bertanya secara langsung dan mendapatkan jawaban yang relevan dengan cepat, baik melalui teks maupun suara.
 
-### Implementasi Teknis
+### 🚀 Fitur Utama
 
-- **Flutter Framework** - Pengembangan aplikasi lintas platform (Android & iOS)  
-- **FastAPI Backend** - API cepat dan ringan untuk menangani request chatbot  
-- **Supabase Database** - PostgreSQL untuk menyimpan user, chat history, dan settings  
-- **Supabase Auth** - Autentikasi aman dengan email/password atau social login  
-- **Socket.IO/REST API** - Komunikasi real-time & integrasi API eksternal  
-- **AI Model Integration** - Alur tanya jawab berbasis AI Islam  
+- **Bantuan Al-Qur’an** – Menjawab pertanyaan seputar surah, ayat, tafsir, dan terjemahan  
+- **Pengetahuan Islam** – Memberikan informasi terkait doa, hukum dasar, dan materi keislaman  
+- **Interaksi Suara** – Mendukung fitur voice-to-text dan text-to-speech untuk pengalaman yang lebih natural  
+- **Autentikasi Pengguna** – Sistem login dan registrasi menggunakan Supabase Auth  
+- **Riwayat Percakapan** – Menyimpan history chat pengguna secara aman di database  
+- **Pengalaman Personal** – Jawaban dapat disesuaikan berdasarkan konteks pertanyaan pengguna  
 
-### Performa & Keunggulan
+### ⚙️ Teknologi yang Digunakan
 
-- **Ukuran aplikasi ringan** dan cepat diakses  
-- **Waktu respons cepat** (< 2 detik rata-rata)  
-- **Desain mobile-first** dengan UI sederhana & ramah pengguna  
-- **Akurat & relevan** dalam menjawab pertanyaan seputar Islam  
-- **Rating pengguna tinggi** berkat kemudahan dan manfaat aplikasinya`,
+- **Flutter** – Pengembangan aplikasi lintas platform (Android & iOS)  
+- **FastAPI** – Backend API yang cepat dan efisien  
+- **Supabase** – Database PostgreSQL dan sistem autentikasi  
+- **Python** – Pengolahan logika backend dan integrasi AI  
+- **REST API & Real-time Communication** – Integrasi layanan eksternal  
+
+### 🎯 Tujuan Proyek
+
+Proyek ini dibuat sebagai inovasi dalam menggabungkan teknologi AI dengan pembelajaran Islam, sehingga pengguna dapat memperoleh informasi yang cepat, akurat, dan mudah dipahami melalui perangkat mobile.  
+
+Islambot menjadi salah satu bentuk eksplorasi saya dalam pengembangan aplikasi AI berbasis edukasi dengan pengalaman pengguna yang sederhana namun powerful.`
     },
     {
         id: 4,
-        title: "Quranni",
+        title: "Quranni – Quran Memorization Companion",
         slug: "quranni-apps",
-        description: "Web-based Quran learning and recitation assistant built with Vue.js. Features include interactive verse display, error marking for murajaah and tahsin, local data storage, and recap results for teachers and students.",
+        description: "Aplikasi web pembelajaran dan asisten murajaah Al-Qur’an berbasis Vue.js yang dilengkapi sistem penandaan kesalahan, rekap evaluasi, dan penyimpanan data lokal.",
         image: "/images/projects/iqurani.png",
         stacks: ["Vue.js", "Supabase", "React.js", "TypeScript"],
         link_demo: "https://quranni.vercel.app",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
         is_featured: false,
-        content: `## 📖 Qurani - Quran Memorization & Tahsin Helper
-Aplikasi web interaktif untuk membantu murajaah, tahsin, dan hafalan Al-Qur’an. Dibangun dengan Vue.js dan TypeScript, aplikasi ini dirancang agar pengguna bisa membaca Al-Qur’an sekaligus menandai bacaan yang salah saat disimak oleh penyimak.
+        content: `## 📖 Quranni – Asisten Murajaah & Tahsin Al-Qur’an
 
-### Fitur Utama
+Quranni adalah aplikasi web interaktif yang dirancang untuk membantu proses murajaah (mengulang hafalan) dan tahsin (memperbaiki bacaan) Al-Qur’an.  
 
-- **Quran Reader** - Teks Al-Qur’an lengkap dengan tampilan mirip mushaf digital  
-- **Error Marking System** - Penyimak dapat menandai kesalahan bacaan pada kata atau ayat tertentu  
-- **Start & Finish Session** - Fitur "Mulai" untuk memulai sesi tahsin/murajaah, dan "Selesai" untuk menutup sesi dengan rekap kesalahan  
-- **Recap Page** - Hasil rekap kesalahan ditampilkan agar pembaca bisa memperbaiki bacaan  
-- **Local Storage Support** - Semua data kesalahan bacaan tersimpan sementara di browser tanpa perlu login  
-- **Responsive Design** - Dapat diakses dengan nyaman di desktop maupun mobile  
+Aplikasi ini memungkinkan pengguna membaca ayat Al-Qur’an secara digital, sementara penyimak dapat langsung menandai kesalahan bacaan selama sesi berlangsung.
 
-### Implementasi Teknis
+### 🚀 Fitur Utama
 
-- **Vue.js + TypeScript** - Untuk membangun UI interaktif dan maintainable  
-- **Tailwind CSS** - Styling modern dan responsif  
-- **LocalStorage API** - Menyimpan data hasil penandaan tanpa server  
-- **Quran API Integration** - Mengambil teks dan struktur ayat Al-Qur’an secara dinamis  
+- **Pembaca Al-Qur’an Digital** – Menampilkan teks Al-Qur’an dengan tampilan yang nyaman dan terstruktur  
+- **Sistem Penandaan Kesalahan** – Penyimak dapat menandai kata atau ayat yang salah saat sesi berlangsung  
+- **Mulai & Selesai Sesi** – Mengatur sesi murajaah/tahsin dengan rekap hasil di akhir  
+- **Halaman Rekap Evaluasi** – Menampilkan daftar kesalahan agar pembaca dapat memperbaiki bacaannya  
+- **Penyimpanan Lokal (Local Storage)** – Data kesalahan disimpan sementara di browser tanpa perlu login  
+- **Desain Responsif** – Nyaman digunakan di perangkat desktop maupun mobile  
 
-### Manfaat & Keunggulan
+### ⚙️ Teknologi yang Digunakan
 
-- Membantu penghafal Al-Qur’an memperbaiki bacaan melalui catatan kesalahan  
-- Menyediakan alat bagi penyimak untuk memberi feedback yang lebih rapi  
-- Bisa digunakan kapan saja tanpa koneksi backend (offline-friendly)  
-- Fokus pada **murajaah & tahsin**, bukan sekadar pembacaan digital`,
+- **Vue.js + TypeScript** – Membangun antarmuka yang interaktif dan terstruktur  
+- **Tailwind CSS** – Styling modern dan responsif  
+- **LocalStorage API** – Penyimpanan data di sisi klien tanpa backend  
+- **Integrasi API Al-Qur’an** – Mengambil teks dan struktur ayat secara dinamis  
+
+### 🎯 Tujuan Pengembangan
+
+Quranni dikembangkan untuk mempermudah proses evaluasi hafalan Al-Qur’an secara digital. Aplikasi ini membantu penyimak memberikan catatan yang lebih rapi dan sistematis, serta memudahkan penghafal dalam memperbaiki kesalahan bacaan.  
+
+Fokus utama aplikasi ini adalah mendukung proses **murajaah dan tahsin**, bukan sekadar sebagai pembaca Al-Qur’an digital.
+
+Link Website versi terbaru: https://qurani-five.vercel.app
+`
     },
     {
         id: 5,
-        title: "Todolist",
+        title: "Todolist – Productivity & Task Tracking App",
         slug: "taks-todolist",
-        description: "Cross-platform To-Do List application built with Flutter and Supabase. Supports real-time task management, user authentication, and seamless synchronization across devices.",
+        description: "Aplikasi To-Do List lintas platform yang dibangun dengan Flutter dan Supabase, mendukung manajemen tugas secara real-time dengan sinkronisasi antar perangkat.",
         image: "/images/projects/listM.png",
-        stacks: ["Flutter", "Supabase",],
+        stacks: ["Flutter", "Supabase"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
         is_featured: false,
-        content: `## ✅ To-Do List App
-A simple yet powerful task management mobile app built with Flutter and Supabase as the backend. Designed to help users stay productive and organized across devices.
+        content: `## ✅ Aplikasi To-Do List
 
-### Key Features
+Aplikasi To-Do List adalah aplikasi manajemen tugas berbasis mobile yang dikembangkan menggunakan Flutter dan Supabase sebagai backend. Aplikasi ini dirancang untuk membantu pengguna tetap produktif dan terorganisir dalam mengelola aktivitas sehari-hari.
 
-- **Task Management** - Create, update, and delete daily tasks easily  
-- **Real-Time Sync** - All data is stored in Supabase and synced across devices  
-- **User Authentication** - Secure login and registration powered by Supabase Auth  
-- **Priority & Deadlines** - Set task priority and due dates for better productivity  
-- **Responsive UI** - Clean and intuitive interface optimized for both Android & iOS  
-- **Offline Support** - Local cache ensures smooth usage even without internet  
+### 🚀 Fitur Utama
 
-### Technical Implementation
+- **Manajemen Tugas** – Membuat, mengedit, dan menghapus tugas dengan mudah  
+- **Sinkronisasi Real-Time** – Data tersimpan di Supabase dan tersinkron otomatis antar perangkat  
+- **Autentikasi Pengguna** – Sistem login dan registrasi yang aman menggunakan Supabase Auth  
+- **Prioritas & Tenggat Waktu** – Mengatur tingkat prioritas dan deadline untuk setiap tugas  
+- **Antarmuka Responsif** – Tampilan bersih dan intuitif untuk Android dan iOS  
+- **Dukungan Offline** – Penyimpanan cache lokal agar tetap bisa digunakan tanpa koneksi internet  
 
-- **Flutter Framework** - Cross-platform mobile development  
-- **Supabase** - Backend for authentication, database, and API services  
-- **PostgreSQL Database** - Structured and reliable data storage  
-- **Provider / Riverpod** - State management for reactive UI updates  
-        - **RESTful APIs** - Efficient communication between client and backend  
+### ⚙️ Implementasi Teknis
 
-### Benefits
+- **Flutter** – Pengembangan aplikasi mobile lintas platform  
+- **Supabase** – Backend untuk autentikasi, database, dan layanan API  
+- **PostgreSQL** – Penyimpanan data terstruktur dan andal  
+- **State Management (Provider / Riverpod)** – Mengelola pembaruan data secara reaktif  
+- **RESTful API** – Komunikasi efisien antara aplikasi dan backend  
 
-- Keeps users organized with real-time synced tasks  
-- Lightweight, fast, and accessible anywhere  
-- Combines simplicity with modern technology stack  
-- Perfect for students, professionals, or anyone managing daily activities`,
+### 🎯 Manfaat Aplikasi
+
+- Membantu pengguna tetap terorganisir dengan sinkronisasi tugas secara real-time  
+- Ringan, cepat, dan dapat diakses kapan saja  
+- Menggabungkan kesederhanaan dengan teknologi modern  
+- Cocok untuk pelajar, profesional, maupun pengguna umum dalam mengatur aktivitas harian`
     },
     {
         id: 6,
-        title: "QuickPOS – Flutter Cashier System",
+        title: "QuickPOS – Flutter Management Cashier System",
         slug: "quickpos",
-        description: "A modern Point of Sale (POS) application built with Flutter, Supabase, and GetX. Designed to help stores manage transactions, products, and customers efficiently with real-time synchronization.",
+        description: "Aplikasi Point of Sale (POS) modern yang dibangun dengan Flutter dan Supabase untuk membantu toko mengelola transaksi, produk, dan pelanggan secara efisien dengan sinkronisasi real-time.",
         image: "/images/projects/QuickPos.png",
         stacks: ["Flutter", "Supabase", "PostgreSQL"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
         is_featured: false,
-        content: `## 💳 QuickPOS – Flutter Cashier System
-A complete Point of Sale (POS) application built using Flutter with Supabase as the backend. Designed for small businesses and stores to handle daily operations easily and efficiently.
+        content: `## 💳 QuickPOS – Sistem Kasir Berbasis Flutter
 
-### Key Features
+QuickPOS adalah aplikasi Point of Sale (POS) yang dikembangkan menggunakan Flutter dengan Supabase sebagai backend. Aplikasi ini dirancang untuk membantu pelaku usaha dan pemilik toko dalam mengelola operasional harian secara mudah, cepat, dan efisien.
 
-- **Transaction Management** – Create, update, and process customer transactions  
-- **Product Management** – Add, edit, categorize, and manage store products  
-- **Customer Data** – Save and manage customer information  
-- **Real-Time Sync** – All data stored and updated instantly through Supabase  
-- **User Authentication** – Secure login & session management with Supabase Auth  
-- **Fast & Reactive UI** – Powered by GetX state management  
-- **Reports & Recap** – Daily and monthly sales recap  
+### 🚀 Fitur Utama
 
-### Technical Implementation
+- **Manajemen Transaksi** – Membuat dan memproses transaksi pelanggan dengan cepat  
+- **Manajemen Produk** – Menambahkan, mengedit, mengelompokkan, dan mengelola data produk  
+- **Manajemen Pelanggan** – Menyimpan dan mengatur data pelanggan  
+- **Sinkronisasi Real-Time** – Data tersimpan dan diperbarui secara langsung melalui Supabase  
+- **Autentikasi Pengguna** – Sistem login aman dengan Supabase Auth  
+- **Antarmuka Cepat & Responsif** – Menggunakan GetX untuk manajemen state yang efisien  
+- **Laporan & Rekap Penjualan** – Ringkasan penjualan harian dan bulanan  
 
-- **Flutter Framework** – Fast cross-platform mobile development  
-- **Supabase** – Authentication, database, and real-time data sync  
-- **PostgreSQL Database** – Reliable and structured data storage  
-- **GetX** – State management, routing, and dependency injection  
-- **RESTful API Integration** – Efficient communication between client and backend  
+### ⚙️ Implementasi Teknis
 
-### Benefits
+- **Flutter** – Pengembangan aplikasi mobile lintas platform  
+- **Supabase** – Backend untuk autentikasi, database, dan sinkronisasi real-time  
+- **PostgreSQL** – Penyimpanan data yang terstruktur dan andal  
+- **GetX** – Manajemen state, routing, dan dependency injection  
+- **RESTful API** – Komunikasi efisien antara aplikasi dan backend  
 
-- Helps store owners manage transactions seamlessly  
-- Lightweight, responsive, and suitable for mobile POS usage  
-- Modern tech stack with real-time synchronization  
-- Ideal for UMKM, small shops, and digital cashier systems  
-`,
+### 🎯 Manfaat Aplikasi
+
+- Membantu pemilik usaha mengelola transaksi dengan lebih terstruktur  
+- Ringan, cepat, dan cocok digunakan sebagai sistem kasir mobile  
+- Menggunakan teknologi modern dengan sinkronisasi data real-time  
+- Ideal untuk UMKM, toko kecil, dan sistem kasir digital`
     },
     {
         id: 7,
         title: "siPinjam - Flutter Equipment Borrowing System",
         slug: "siPinjam",
-        description: "A modern equipment borrowing application built with Flutter, Supabase, and GetX. Designed to help institutions manage item lending, borrower data, and return tracking efficiently with real-time synchronization.",
+        description: "Aplikasi manajemen peminjaman barang modern yang dibangun dengan Flutter dan Supabase untuk membantu institusi mengelola data peminjaman, pengembalian, dan inventaris secara efisien dengan sinkronisasi real-time.",
         image: "/images/projects/siPinjam.png",
         stacks: ["Flutter", "Supabase", "PostgreSQL"],
         link_demo: "",
         link_github: "https://github.com/ahmadmasum23",
         is_show: true,
         is_featured: false,
-        content: `## 📦 siPinjam – Flutter Equipment Borrowing System
-A complete item borrowing management application built using Flutter with Supabase as the backend. Designed for schools, campuses, or organizations to manage equipment lending and return processes efficiently.
+        content: `## 📦 siPinjam – Sistem Manajemen Peminjaman Barang
 
-### Key Features
+siPinjam adalah aplikasi manajemen peminjaman barang yang dikembangkan menggunakan Flutter dengan Supabase sebagai backend. Aplikasi ini dirancang untuk membantu sekolah, kampus, maupun organisasi dalam mengelola proses peminjaman dan pengembalian barang secara lebih terstruktur dan efisien.
 
-- **Borrowing Management** – Create, approve, and track item borrowing  
-- **Return Tracking** – Monitor item returns and status updates  
-- **Item Management** – Add, edit, categorize, and manage available items  
-- **Borrower Data** – Store and manage borrower information  
-- **Real-Time Sync** – All data stored and updated instantly through Supabase  
-- **User Authentication** – Secure login & role-based access using Supabase Auth  
-- **History & Reports** – Borrowing history and recap reports  
+### 🚀 Fitur Utama
 
-### Technical Implementation
+- **Manajemen Peminjaman** – Membuat, menyetujui, dan melacak proses peminjaman barang  
+- **Pelacakan Pengembalian** – Memantau status pengembalian dan pembaruan data secara real-time  
+- **Manajemen Barang** – Menambah, mengedit, mengelompokkan, dan mengelola data inventaris  
+- **Data Peminjam** – Menyimpan dan mengatur informasi peminjam  
+- **Sinkronisasi Real-Time** – Data tersimpan dan diperbarui langsung melalui Supabase  
+- **Autentikasi & Hak Akses** – Sistem login aman dengan pengaturan role pengguna  
+- **Riwayat & Laporan** – Menyediakan histori peminjaman dan rekap laporan  
 
-- **Flutter Framework** – Fast cross-platform mobile development  
-- **Supabase** – Authentication, database, and real-time data sync  
-- **PostgreSQL Database** – Reliable and structured data storage  
-- **GetX** – State management, routing, and dependency injection  
-- **RESTful API Integration** – Efficient communication between client and backend  
+### ⚙️ Implementasi Teknis
 
-### Benefits
+- **Flutter** – Pengembangan aplikasi mobile lintas platform  
+- **Supabase** – Backend untuk autentikasi, database, dan sinkronisasi data  
+- **PostgreSQL** – Penyimpanan data yang terstruktur dan andal  
+- **GetX** – Manajemen state, routing, dan dependency injection  
+- **RESTful API** – Komunikasi efisien antara aplikasi dan backend  
 
-- Helps institutions manage equipment lending efficiently  
-- Reduces manual recording errors  
-- Lightweight, responsive, and suitable for mobile usage  
-- Modern tech stack with real-time synchronization  
-`,
+### 🎯 Manfaat Aplikasi
+
+- Membantu institusi mengelola inventaris dan peminjaman secara digital  
+- Mengurangi kesalahan pencatatan manual  
+- Ringan, responsif, dan cocok digunakan melalui perangkat mobile  
+- Menggunakan teknologi modern dengan sinkronisasi data real-time`
     }
+
 
 
 ];

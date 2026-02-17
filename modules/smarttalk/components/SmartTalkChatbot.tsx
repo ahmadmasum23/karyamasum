@@ -11,7 +11,7 @@ import clsx from "clsx";
 
 import Container from "@/common/components/elements/Container";
 import SpotlightCard from "@/common/components/elements/SpotlightCard";
-import Button from "@/common/components/elements/Button";
+import Button from "@/common/components/elements/Button"
 
 interface Message {
   id: string;
@@ -62,54 +62,93 @@ const SmartTalkChatbot = () => {
     scrollToBottom();
   }, [messages]);
 
-  const sendMessage = async () => {
-    if (!inputMessage.trim() || isLoading) return;
+  const getCustomReply = (message: string): string | null => {
+  const lower = message.toLowerCase();
 
-    const userMessage: Message = {
-      id: Date.now().toString(),
-      text: inputMessage.trim(),
-      sender: "user",
+  if (lower.includes("siapa kamu")) {
+    return "Saya adalah SmartTalk AI buatan Ahmad Ma'sum 🚀";
+  }
+
+  if (lower.includes("siapa ahmad")) {
+    return "Ahmad Ma'sum adalah seorang Fullstack Developer dan AI Enthusiast.";
+  }
+
+  if (lower.includes("kontak")) {
+    return "Kamu bisa hubungi Ahmad lewat Telegram: https://t.me/ahmadmsum";
+  }
+
+  return null;
+};
+
+
+  const sendMessage = async () => {
+  if (!inputMessage.trim() || isLoading) return;
+
+  const trimmedMessage = inputMessage.trim();
+
+  const userMessage: Message = {
+    id: Date.now().toString(),
+    text: trimmedMessage,
+    sender: "user",
+    timestamp: new Date(),
+  };
+
+  setMessages((prev) => [...prev, userMessage]);
+  setInputMessage("");
+
+  // 🔥 CEK CUSTOM REPLY DULU
+  const customReply = getCustomReply(trimmedMessage);
+
+  if (customReply) {
+    const aiMessage: Message = {
+      id: (Date.now() + 1).toString(),
+      text: customReply,
+      sender: "ai",
       timestamp: new Date(),
     };
 
-    setMessages((prev) => [...prev, userMessage]);
-    setInputMessage("");
-    setIsLoading(true);
+    setMessages((prev) => [...prev, aiMessage]);
+    return; // STOP di sini, tidak ke Gemini
+  }
 
-    try {
-      const response = await fetch("/api/gemini", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: inputMessage.trim() }),
-      });
+  // Kalau tidak cocok, lanjut ke Gemini
+  setIsLoading(true);
 
-      if (!response.ok) throw new Error("Failed to get response");
+  try {
+    const response = await fetch("/api/gemini", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: trimmedMessage }),
+    });
 
-      const data = await response.json();
+    if (!response.ok) throw new Error("Failed to get response");
 
-      const aiMessage: Message = {
-        id: (Date.now() + 1).toString(),
-        text: data.message,
-        sender: "ai",
-        timestamp: new Date(),
-      };
+    const data = await response.json();
 
-      setMessages((prev) => [...prev, aiMessage]);
-    } catch (error) {
-      console.error("Error sending message:", error);
-      const errorMessage: Message = {
-        id: (Date.now() + 1).toString(),
-        text: t("error_message") || "Sorry, I encountered an error. Please try again later.",
-        sender: "ai",
-        timestamp: new Date(),
-      };
-      setMessages((prev) => [...prev, errorMessage]);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+    const aiMessage: Message = {
+      id: (Date.now() + 1).toString(),
+      text: data.message,
+      sender: "ai",
+      timestamp: new Date(),
+    };
+
+    setMessages((prev) => [...prev, aiMessage]);
+  } catch (error) {
+    console.error(error);
+
+    const errorMessage: Message = {
+      id: (Date.now() + 1).toString(),
+      text: "Maaf, terjadi kesalahan.",
+      sender: "ai",
+      timestamp: new Date(),
+    };
+
+    setMessages((prev) => [...prev, errorMessage]);
+  } finally {
+    setIsLoading(false);
+  }
+};
+
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
@@ -137,55 +176,117 @@ const SmartTalkChatbot = () => {
         className="space-y-2"
       >
         {/* Chat Header */}
-        <SpotlightCard className="p-4 sm:p-6 bg-white/20">
+        <SpotlightCard
+          className="
+    p-4 sm:p-6
+    bg-gray-100 text-gray-900
+    dark:bg-gray-800 dark:text-gray-100
+    transition-colors duration-300
+  "
+        >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 sm:h-12 sm:w-12 aspect-square items-center justify-center rounded-full bg-white/20 text-white shrink-0">
+              {/* Icon */}
+              <div
+                className="
+          flex h-10 w-10 sm:h-12 sm:w-12 aspect-square
+          items-center justify-center rounded-full shrink-0
+          bg-gray-300 text-gray-800
+          dark:bg-gray-700 dark:text-gray-100
+          transition-colors duration-300
+        "
+              >
                 <IoSparkles className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>
 
+              {/* Title & Subtitle */}
               <div>
-                <h2 className="text-lg sm:text-xl font-bold">{t("chat_header_title")}</h2>
-                <p className="text-xs sm:text-sm opacity-90">
+                <h2 className="text-lg sm:text-xl font-bold">
+                  {t("chat_header_title")}
+                </h2>
+                <p className="text-xs sm:text-sm opacity-80">
                   {t("chat_header_subtitle")}
                 </p>
               </div>
             </div>
 
-            {/* Tombol untuk Desktop */}
+            {/* Desktop Buttons */}
             <div className="hidden sm:flex gap-2">
               <Button
                 onClick={clearChat}
-                className="bg-white/20 text-white hover:bg-white/30 text-sm"
+                className="
+          bg-gray-300 text-gray-900 hover:bg-gray-400
+          dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600
+          text-sm transition-colors duration-300
+        "
               >
                 {t("clear_button") || "Clear"}
               </Button>
+
               <Button
                 onClick={() => setIsMinimized(!isMinimized)}
-                className="bg-white/20 text-white hover:bg-white/30 text-sm"
+                className="
+          bg-gray-300 text-gray-900 hover:bg-gray-400
+          dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600
+          text-sm transition-colors duration-300
+        "
               >
-                {isMinimized ? "+" : "−"}
+                {isMinimized ? (
+                  // Panah Bawah
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                ) : (
+                  // Panah Atas
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
+                  </svg>
+                )}
+
               </Button>
             </div>
           </div>
 
-          {/* Tombol untuk Mobile */}
+          {/* Mobile Buttons */}
           <div className="flex sm:hidden gap-2 mt-3 justify-end">
             <Button
               onClick={clearChat}
-              className="bg-white/20 text-white hover:bg-white/30 text-sm"
+              className="
+        bg-gray-300 text-gray-900 hover:bg-gray-400
+        dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600
+        text-sm transition-colors duration-300
+      "
             >
               {t("clear_button") || "Clear"}
             </Button>
+
             <Button
               onClick={() => setIsMinimized(!isMinimized)}
-              className="bg-white/20 text-white hover:bg-white/30 text-sm"
+              className="
+        bg-gray-300 text-gray-900 hover:bg-gray-400
+        dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600
+        text-sm transition-colors duration-300
+      "
             >
               {isMinimized ? "+" : "−"}
             </Button>
           </div>
-
         </SpotlightCard>
+
 
         <AnimatePresence>
           {!isMinimized && (
