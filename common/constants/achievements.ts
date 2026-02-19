@@ -210,6 +210,28 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     image: "/images/achievements/sertivrSNBT.jpeg",
     is_show: true,
   },
+  {
+    id: 20,
+    credential_id: "CERT-020",
+    name: "Belajar Dasar Pemrograman Web",
+    issuing_organization: "dicoding",
+    category: "certificate",
+    url_credential: "https://www.dicoding.com/certificates/ERZRL45J2ZYV",
+    issue_date: "2026-02-18",
+    image: "/images/achievements/dicoding-bljrdweb.png",
+    is_show: true,
+  },
+  {
+    id: 21,
+    credential_id: "CERT-021",
+    name: "Memulai Pemrograman dengan Python",
+    issuing_organization: "dicoding",
+    category: "certificate",
+    url_credential: "https://www.dicoding.com/certificates/MEPJOLENWZ3V",
+    issue_date: "2026-02-19",
+    image: "/images/achievements/dicoding-mempythn.png",
+    is_show: true,
+  },
 
 ];
 
