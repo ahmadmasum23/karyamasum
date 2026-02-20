@@ -232,6 +232,17 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     image: "/images/achievements/dicoding-mempythn.png",
     is_show: true,
   },
+  {
+    id: 22,
+    credential_id: "CERT-022",
+    name: "Belajar Penerapan Data Science dengan Microsoft Fabric",
+    issuing_organization: "dicoding",
+    category: "certificate",
+    url_credential: "https://www.dicoding.com/certificates/EYX4Q7JE5PDL",
+    issue_date: "2026-02-19",
+    image: "/images/achievements/dicoding-dtaMicFa.png",
+    is_show: true,
+  },
 
 ];
 
