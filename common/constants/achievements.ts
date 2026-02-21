@@ -11,6 +11,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-04-24",
     image: "/images/achievements/ubigMG.jpg",
     is_show: true,
+    type:"course"
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-05-20",
     image: "/images/achievements/ammanAI.jpg",
     is_show: true,
+    type:"course"
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-06-15",
     image: "/images/achievements/ai-microsft.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-07-25",
     image: "/images/achievements/ut-scholl.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 5,
@@ -55,6 +59,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-08-27",
     image: "/images/achievements/id-network-securingEmail.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 6,
@@ -66,6 +71,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-09-04",
     image: "/images/achievements/buildingIT.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 7,
@@ -77,6 +83,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-09-04",
     image: "/images/achievements/gemini-ai.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 8,
@@ -88,6 +95,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-09-19",
     image: "/images/achievements/revOU-softwaree.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 9,
@@ -99,6 +107,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-09-26",
     image: "/images/achievements/revOU-dataAnalytics.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 10,
@@ -110,6 +119,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-09-26",
     image: "/images/achievements/revOU-digitalMarctng.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 11,
@@ -121,6 +131,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-09-27",
     image: "/images/achievements/dicoding-AI.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 12,
@@ -132,6 +143,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-10-20",
     image: "/images/achievements/id-network-cloudjurney.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 13,
@@ -143,6 +155,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-10-27",
     image: "/images/achievements/id-network-proxmox.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 14,
@@ -154,6 +167,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-11-27",
     image: "/images/achievements/id-network-juniper.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 15,
@@ -165,6 +179,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-11-29",
     image: "/images/achievements/id-network-data.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 16,
@@ -176,6 +191,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-12-21",
     image: "/images/achievements/Revolusiber-CTF.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 17,
@@ -187,6 +203,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2026-01-27",
     image: "/images/achievements/id-network-mobilepentesting.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 18,
@@ -198,6 +215,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2026-01-29",
     image: "/images/achievements/id-network-solusisistem.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 19,
@@ -209,6 +227,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2026-02-11",
     image: "/images/achievements/sertivrSNBT.jpeg",
     is_show: true,
+    type:"course"
   },
   {
     id: 20,
@@ -220,6 +239,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2026-02-18",
     image: "/images/achievements/dicoding-bljrdweb.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 21,
@@ -231,6 +251,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2026-02-19",
     image: "/images/achievements/dicoding-mempythn.png",
     is_show: true,
+    type:"course"
   },
   {
     id: 22,
@@ -242,6 +263,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2026-02-19",
     image: "/images/achievements/dicoding-dtaMicFa.png",
     is_show: true,
+    type:"course"
   },
 
 ];
