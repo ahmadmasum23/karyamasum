@@ -8,11 +8,14 @@ import { GITHUB_ACCOUNTS } from "@/common/constants/github";
 import { MONKEYTYPE_ACCOUNT } from "@/common/constants/monkeytype";
 import { CODEWARS_ACCOUNT } from "@/common/constants/codewars";
 import Umami from "./Umami";
+import SkillList from "@/modules/home/components/SkillList";
 
 const Dashboard = () => {
   
   return (
     <>
+      <SkillList />
+      <Breakline className="my-8" />
       <Contributions endpoint={GITHUB_ACCOUNTS.endpoint} />
       <Breakline className="my-8" /> 
       <Monkeytype />

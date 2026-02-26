@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <>
       <Introduction />
-      <Breakline className="my-8" />
-      <SkillList />
+      {/* <Breakline className="my-8" /> */}
+      {/* <SkillList /> */}
       <Breakline className="my-8" />
       <BentoGrid />
     </>
