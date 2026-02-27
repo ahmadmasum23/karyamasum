@@ -3,16 +3,8 @@ export const METADATA = {
   title: "Ahmad Ma'sum | Frontend Developer Indonesia | SMK Brantas Karangkates",
   description:
     "Ahmad Ma'sum is a Frontend & Mobile Developer from Indonesia and SMK Brantas graduate. Specializing in Next.js, React, and Flutter development.",
-  keywords: [
-    "Ahmad Ma'sum",
-    "Ahmad Masum",
-    "Ahmad Masum SMK Brantas",
-    "Ahmad Ma'sum SMK Brantas",
-    "Frontend Developer Indonesia",
-    "Mobile Developer Indonesia",
-    "SMK Brantas",
-    "Masum Programmer",
-  ],
+  
+  keywords: "Ahmad Ma'sum SMK Brantas Karangkates",
   authors: {
     name: "Ahmad Ma'sum",
     url: process.env.DOMAIN || process.env.NEXTAUTH_URL || "http://localhost:3000",
