@@ -1,10 +1,7 @@
 export const METADATA = {
   creator: "Ahmad Ma'sum",
-  title: "Ahmad Ma'sum | Frontend Developer Indonesia | SMK Brantas Karangkates",
-  description:
-    "Ahmad Ma'sum is a Frontend & Mobile Developer from Indonesia and SMK Brantas graduate. Specializing in Next.js, React, and Flutter development.",
-  
-  keywords: "Ahmad Ma'sum SMK Brantas Karangkates",
+  description: "Personal website, portfolio, blog",
+  keyword: "Ahmad Ma'sum SMK Brantas Karangkates, Ahmad Ma'sum",
   authors: {
     name: "Ahmad Ma'sum",
     url: process.env.DOMAIN || process.env.NEXTAUTH_URL || "http://localhost:3000",
@@ -17,3 +14,23 @@ export const METADATA = {
   exTitle: "| Ahmad Ma'sum",
   profile: "/images/masum-4.jpg",
 };
+
+// export const METADATA = {
+//   creator: "Ahmad Ma'sum",
+//   title: "Ahmad Ma'sum | Frontend Developer Indonesia | SMK Brantas Karangkates",
+//   description:
+//     "Ahmad Ma'sum is a Frontend & Mobile Developer from Indonesia and SMK Brantas graduate. Specializing in Next.js, React, and Flutter development.",
+  
+//   keywords: "Ahmad Ma'sum SMK Brantas Karangkates",
+//   authors: {
+//     name: "Ahmad Ma'sum",
+//     url: process.env.DOMAIN || process.env.NEXTAUTH_URL || "http://localhost:3000",
+//   },
+//   openGraph: {
+//     url: process.env.DOMAIN || process.env.NEXTAUTH_URL || "http://localhost:3000",
+//     siteName: "Ahmad Ma'sum",
+//     locale: "id-ID",
+//   },
+//   exTitle: "| Ahmad Ma'sum",
+//   profile: "/images/masum-4.jpg",
+// };
