@@ -11,7 +11,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2025-04-24",
     image: "/images/achievements/ubigMG.jpg",
     is_show: true,
-    type:"course"
+    type:"internship"
   },
   {
     id: 2,
@@ -227,7 +227,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     issue_date: "2026-02-11",
     image: "/images/achievements/sertivrSNBT.jpeg",
     is_show: true,
-    type:"course"
+    type:"Olimpiade"
   },
   {
     id: 20,
@@ -274,6 +274,18 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     url_credential: "https://drive.google.com/file/d/1z56kxKhVYpL7s0a4cZPQgyRbIeNiS40Y/view?usp=sharing",
     issue_date: "2026-02-22",
     image: "/images/achievements/ioe-microsoft-ai-fluency.png",
+    is_show: true,
+    type:"course"
+  },
+  {
+    id: 24,
+    credential_id: "CERT-024",
+    name: "Pelatihan Nasional Pengenalan dan Pemanfaatan Artificial Intelligence (AI) di Era Digital",
+    issuing_organization: "Edukasa.id",
+    category: "certificate",
+    url_credential: "https://drive.google.com/file/d/1qnENLTbO3dqwsrrd7wyXBfFT0AnGgutI/view?usp=sharing",
+    issue_date: "2026-02-26",
+    image: "/images/achievements/edukasa-ai.png",
     is_show: true,
     type:"course"
   },

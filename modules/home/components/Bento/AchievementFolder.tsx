@@ -10,7 +10,8 @@ const AchievementFolder = () => {
   const filteredAchievements = ACHIEVEMENTS_DATA
     .filter((item: AchievementItem) => item?.is_show)
     .sort((a: AchievementItem, b: AchievementItem) => b.id - a.id)
-    .slice(0, 3);
+    // .slice(0, 3);
+    .slice(-4, -1);
 
   const items = filteredAchievements.map((item: AchievementItem) => (
     <Image
