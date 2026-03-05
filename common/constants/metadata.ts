@@ -12,7 +12,7 @@ export const METADATA = {
     locale: "id-ID",
   },
   exTitle: "| Ahmad Ma'sum",
-  profile: "/images/masum-4.jpg",
+  profile: "/images/masum-4.jpg", 
 };
 
 // export const METADATA = {

@@ -289,6 +289,18 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     is_show: true,
     type:"course"
   },
+  {
+    id: 25,
+    credential_id: "CERT-025",
+    name: "Diklat Nasional Panduan Praktis Mendesain Pembelajaran Mendalam dengan Pemanfaatan Artificial Intelligence (AI)",
+    issuing_organization: "diklat.online",
+    category: "certificate",
+    url_credential: "https://drive.google.com",
+    issue_date: "2026-02-26",
+    image: "/images/achievements/diklat-online.png",
+    is_show: true,
+    type:"course"
+  },
 
 ];
 
