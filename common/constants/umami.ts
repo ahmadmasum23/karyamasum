@@ -15,7 +15,7 @@ export const UMAMI_ACCOUNT = {
   is_active: true,
   websites: [
     {
-      domain: "ahmadmasum.vercel.app",
+      domain: "ahmadmasum",
       website_id: process.env.UMAMI_WEBSITE_ID_SITE,
       umami_url:
         "https://cloud.umami.is/share/7MP97rlSI9k03Ahi/ahmadmasum.vercel.app",
