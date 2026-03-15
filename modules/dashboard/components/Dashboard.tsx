@@ -14,13 +14,15 @@ const Dashboard = () => {
   
   return (
     <>
+      <Umami />
+      <Breakline className="my-8" />
       <SkillList />
       <Breakline className="my-8" />
       <Contributions endpoint={GITHUB_ACCOUNTS.endpoint} />
       <Breakline className="my-8" /> 
       <Monkeytype />
-      {/* <Umami />
-      <Breakline className="my-8" /> 
+  
+      {/* <Breakline className="my-8" /> 
       <Contributions endpoint={GITHUB_ACCOUNTS.endpoint} />
       <Breakline className="my-8" />
       <CodingActive />

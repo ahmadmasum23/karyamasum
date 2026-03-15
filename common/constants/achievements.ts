@@ -309,7 +309,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     category: "certificate",
     url_credential: "https://drive.google.com",
     issue_date: "2026-02-26",
-    image: "/images/achievements/simbus-generasi.png",
+    image: "/images/achievements/simbusPTN.png",
     is_show: true,
     type:"course"
   },
