@@ -301,6 +301,18 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     is_show: true,
     type:"course"
   },
+  {
+    id: 26,
+    credential_id: "CERT-026",
+    name: "MENGENAL PELUANG KARIER BUMN 2026",
+    issuing_organization: "PT. Simbus Generasi",
+    category: "certificate",
+    url_credential: "https://drive.google.com",
+    issue_date: "2026-02-26",
+    image: "/images/achievements/simbus-generasi.png",
+    is_show: true,
+    type:"course"
+  },
 
 ];
 

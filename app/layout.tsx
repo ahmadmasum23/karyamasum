@@ -50,7 +50,7 @@ const RootLayout = async ({
       <Script
         defer
         src="https://cloud.umami.is/script.js"
-        data-website-id="91c868c5-2a89-4a1d-b292-56c40ea30137"
+        data-website-id="03f49865-035d-4ae7-9e21-64f85c71fd5c"
 
       ></Script>
       <body className={onestSans.className}>

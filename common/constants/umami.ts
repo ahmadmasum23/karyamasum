@@ -15,16 +15,10 @@ export const UMAMI_ACCOUNT = {
   is_active: true,
   websites: [
     {
-      domain: "satriabahari.site",
+      domain: "ahmadmasum.vercel.app",
       website_id: process.env.UMAMI_WEBSITE_ID_SITE,
       umami_url:
-        "https://us.umami.is/share/wg6XA2bPFWg8Qc7r/www.satriabahari.site",
-    },
-    {
-      domain: "satriabahari.my.id",
-      website_id: process.env.UMAMI_WEBSITE_ID_MYID,
-      umami_url:
-        "https://cloud.umami.is/share/YBbXz2wWG0lCgSLt/www.satriabahari.my.id",
+        "https://cloud.umami.is/share/7MP97rlSI9k03Ahi/ahmadmasum.vercel.app",
     },
   ],
 };
