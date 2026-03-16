@@ -42,20 +42,20 @@ const TrafficTrendsChart = ({ data }: DataProps) => {
 
   const chartData = {
     labels,
-    datasets: [
-      {
-        label: "Sessions",
-        data: data?.sessions?.map((point) => point.y),
-        backgroundColor: "rgba(155, 233, 168, 0.7)",
-        stack: "traffic",
-      },
-      {
-        label: "Page views",
-        data: data?.pageviews?.map((point) => point.y),
-        backgroundColor: "rgba(48,161,78,0.7)",
-        stack: "traffic",
-      },
-    ],
+   datasets: [
+  {
+    label: "Sessions",
+    data: data?.sessions?.map((point) => point.y),
+    backgroundColor: "rgba(147, 197, 253, 0.7)", // biru muda
+    stack: "traffic",
+  },
+  {
+    label: "Page views",
+    data: data?.pageviews?.map((point) => point.y),
+    backgroundColor: "rgba(37, 99, 235, 0.7)", // biru lebih gelap
+    stack: "traffic",
+  },
+],
   };
 
   const options: ChartOptions<"bar"> = {

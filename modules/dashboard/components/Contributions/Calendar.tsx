@@ -29,6 +29,14 @@ interface CalendarProps {
   };
 }
 
+const getBlueColor = (count: number) => {
+  if (count === 0) return "#d1d5db"; // abu
+  if (count <= 2) return "#dbeafe";
+  if (count <= 5) return "#93c5fd";
+  if (count <= 10) return "#3b82f6";
+  return "#1e40af";
+};
+
 const Calendar = ({ data }: CalendarProps) => {
   const [selectContribution, setSelectContribution] = useState<{
     count: number | null;
@@ -62,7 +70,13 @@ const Calendar = ({ data }: CalendarProps) => {
       };
     }) ?? [];
 
-  const contributionColors = data?.colors ?? [];
+  const contributionColors = [
+    "#d1d5db",
+    "#dbeafe",
+    "#93c5fd",
+    "#3b82f6",
+    "#1e40af",
+  ];
 
   return (
     <>
@@ -84,7 +98,7 @@ const Calendar = ({ data }: CalendarProps) => {
             <div key={week.firstDay}>
               {week.contributionDays.map((contribution) => {
                 const backgroundColor =
-                  contribution.contributionCount > 0 && contribution.color;
+                  getBlueColor(contribution.contributionCount);
 
                 const getRandomDelayAnimate =
                   Math.random() * week.contributionDays.length * 0.15;
@@ -103,7 +117,7 @@ const Calendar = ({ data }: CalendarProps) => {
                       },
                     }}
                     className="my-[2px] block h-[12px] w-[12px] rounded-sm bg-neutral-300 dark:bg-neutral-800"
-                    style={backgroundColor ? { backgroundColor } : undefined}
+                    style={{ backgroundColor }}
                     onMouseEnter={() =>
                       setSelectContribution({
                         count: contribution.contributionCount,
