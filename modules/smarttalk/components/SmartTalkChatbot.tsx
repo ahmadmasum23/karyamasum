@@ -177,24 +177,13 @@ const SmartTalkChatbot = () => {
       >
         {/* Chat Header */}
         <SpotlightCard
-          className="
-    p-4 sm:p-6
-    bg-gray-100 text-gray-900
-    dark:bg-gray-800 dark:text-gray-100
-    transition-colors duration-300
-  "
+          className="p-4 sm:p-6bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100 transition-colors duration-300"
         >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               {/* Icon */}
               <div
-                className="
-          flex h-10 w-10 sm:h-12 sm:w-12 aspect-square
-          items-center justify-center rounded-full shrink-0
-          bg-gray-300 text-gray-800
-          dark:bg-gray-700 dark:text-gray-100
-          transition-colors duration-300
-        "
+                className="flex h-10 w-10 sm:h-12 sm:w-12 aspect-square items-center justify-center rounded-full shrink-0 bg-gray-300 text-gray-800 dark:bg-gray-700 dark:text-gray-100 transition-colors duration-300"
               >
                 <IoSparkles className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>

@@ -3,7 +3,7 @@
     "intro": "Hi, I'm Ahmad Ma'sum 👋",
     "location": "Based in Malang, Indonesia 🇮🇩",
     "location_type": "Onsite",
-   "resume": "A passionate and enthusiastic junior programmer from Malang, East Java. I am Ahmad Ma'sum currently a student at SMK Brantas Karangkates, majoring in Software Engineering (RPL). I have a strong interest in Front-End Development, Mobile Apps, Artificial Intelligence (AI), and Chatbot Development. I am always eager to learn new things and explore emerging technologies.",
+    "resume": "A passionate and enthusiastic junior programmer from Malang, East Java. I am Ahmad Ma'sum currently a student at SMK Brantas Karangkates, majoring in Software Engineering (RPL). I have a strong interest in Front-End Development, Mobile Apps, Artificial Intelligence (AI), and Chatbot Development. I am always eager to learn new things and explore emerging technologies.",
     "skills": {
       "title": "Junior Skills",
       "sub_title": "Basic skills that I am currently developing."
@@ -18,13 +18,9 @@
     "description": "A brief introduction to who I am.",
     "resume": {
       "paragraf_1": "Hello! Thank you for visiting my personal website. I’m Ahmad Ma’sum, a student at SMK Brantas Karangkates majoring in Software Engineering (RPL), originally from Malang, East Java. Since the beginning of my studies in vocational school, I have fallen in love with the world of programming and technology.",
-
       "paragraf_2": "I enjoy creating user-friendly solutions with high performance. Whether building intuitive interfaces or designing backend services, I always strive to bring efficiency and clarity to every layer of an application. I am a fast learner who thrives in dynamic environments and enjoys solving complex problems collaboratively.",
-
       "paragraf_3": "I believe that good communication and team synergy are the keys to success in software development. My experiences have shaped both my technical and analytical skills, as well as my leadership qualities. I am always eager to work in a team, learn from others, and contribute to impactful projects.",
-
       "paragraf_4": "Warm regards."
-
     },
     "career": {
       "title": "Career",
@@ -187,16 +183,35 @@
       "button": "Send Email"
     }
   },
+   "LinksPage": {
+    "title": "Links",
+    "description": "Check out these links!",
+    "job": "Software Engineer",
+    "loc": "Malang, Indonesia",
+    "getInTouch": "Get in Touch",
+    "sub_getInTouch": "Feel free to reach out for collaborations or just a friendly chat",
+    "sendEmail": "Send Email",
+    "sharePage": "Share This Page",
+    "urlPage": "Page URL",
+    "share": "Share via...",
+    "cardPorto": "Personal Website & Portfolio",
+    "cardSaweria": "Indonesian Donation Platform",
+    "cardMonkeytype": "Typing Speed Profile",
+    "copied": "Copied",
+    "portfolio": "Portfolio",
+    "monkeytype": "Monkeytype",
+    "saweria": "Saweria"
+  },
   "SmartTalkPage": {
     "title": "Smart Talk",
     "description": "An AI-powered space for natural, insightful conversations and idea exploration.",
     "welcome_message": "Hello! I'm Ahmad Ma'sum's AI assistant. You can ask me about Ahmad's background, skills, projects, or anything else you'd like to know!",
     "chat_header_title": "Mad's AI Assistant",
     "chat_header_subtitle": "Chat with Ahmad Ma'sum's AI Assistant",
-    "clear_button":"Clear",
-    "input_hint":"Press Enter to send, Shift+Enter for new line",
-    "input_placeholder":"Ask me about Ahmad Ma'sum or anything else...",
-    "error_message":"Sorry, I encountered an error. Please try again later."
+    "clear_button": "Clear",
+    "input_hint": "Press Enter to send, Shift+Enter for new line",
+    "input_placeholder": "Ask me about Ahmad Ma'sum or anything else...",
+    "error_message": "Sorry, I encountered an error. Please try again later."
   },
   "Footer": {
     "hire": "Hire me.",
@@ -216,7 +231,8 @@
     "Dashboard": "Dashboard",
     "Chat Room": "Chat Room",
     "Contact": "Contact",
-    "Smart Talk": "Smart Talk"
+    "Smart Talk": "Smart Talk",
+    "Links": "Links"
   },
   "NotFoundPage": {
     "title": "Page not found",

@@ -4,6 +4,7 @@ import {
   BiCollection as ProjectIcon,
   BiCategory as DashboardIcon,
   BiBook as ContactIcon,
+  BiLink as LinksIcon
 } from "react-icons/bi";
 import { PiChatTeardropDotsBold as ChatRoomIcon } from "react-icons/pi";
 import { PiCertificate as AchievementIcon } from "react-icons/pi";
@@ -69,6 +70,14 @@ export const MENU_ITEMS: MenuItemProps[] = [
     isShow: true,
     isExternal: false,
     eventName: "Pages: Chat Room",
+  },
+  {
+    title: "Links",
+    href: "/links",
+    icon: <LinksIcon size={iconSize} />,
+    isShow: true,
+    isExternal: true,
+    eventName: "Pages: Links",
   },
   {
     title: "Smart Talk",

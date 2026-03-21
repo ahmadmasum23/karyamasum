@@ -18,11 +18,8 @@
     "description": "Perkenalan singkat tentang siapa saya.",
     "resume": {
       "paragraf_1": "Halo! Terima kasih telah mengunjungi situs pribadi saya. Saya Ahmad Ma’sum, seorang siswa SMK Brantas Karangkates jurusan Rekayasa Perangkat Lunak yang berasal dari Malang, Jawa Timur. Sejak awal masuk SMK, saya sudah jatuh cinta pada dunia pemrograman dan teknologi.",
-
       "paragraf_2": "Saya menikmati menciptakan solusi yang ramah pengguna dan memiliki performa tinggi. Baik saat membangun antarmuka yang intuitif maupun merancang layanan backend, saya selalu berusaha membawa efisiensi dan kejelasan pada setiap lapisan aplikasi. Saya pembelajar cepat yang tumbuh dalam lingkungan dinamis dan senang menyelesaikan masalah kompleks secara kolaboratif.",
-
       "paragraf_3": "Saya percaya bahwa komunikasi yang baik dan sinergi tim adalah kunci kesuksesan dalam pengembangan perangkat lunak. Pengalaman saya telah membentuk kemampuan teknis dan analitis saya, serta kualitas kepemimpinan saya. Saya selalu bersemangat untuk bekerja dalam tim, belajar dari orang lain, dan berkontribusi pada proyek yang berdampak.",
-
       "paragraf_4": "Salam hangat."
     },
     "career": {
@@ -173,7 +170,7 @@
         "title": "Hubungkan di Telegram",
         "description": "Chat dengan saya langsung di Telegram."
       },
-       "whatsapp": {
+      "whatsapp": {
         "title": "Hubungkan di WhatsApp",
         "description": "Chat dengan saya langsung di WhatsApp."
       }
@@ -186,16 +183,35 @@
       "button": "Kirim Email"
     }
   },
+  "LinksPage": {
+    "title": "Tautan",
+    "description": "Kunjungi tautan berikut!",
+    "job": "Software Engineer",
+    "loc": "Malang, Indonesia",
+    "getInTouch": "Hubungi Saya",
+    "sub_getInTouch": "Jangan ragu untuk menghubungi saya, baik untuk kolaborasi atau sekadar mengobrol santai",
+    "sendEmail": "Kirim Email",
+    "sharePage": "Bagikan Halaman Ini",
+    "urlPage": "URL Halaman",
+    "share": "Bagikan via...",
+    "cardPorto": "Website & Portofolio Pribadi",
+    "cardSaweria": "Platform Donasi Indonesia",
+    "cardMonkeytype": "Profil Kecepatan Mengetik",
+    "copied": "Tersalin",
+    "portfolio": "Portofolio",
+    "monkeytype": "Monkeytype",
+    "saweria": "Saweria"
+  },
   "SmartTalkPage": {
     "title": "Percakapan Cerdas",
     "description": "Ruang berbasis AI untuk percakapan alami, penuh wawasan, dan eksplorasi ide.",
     "welcome_message": "Halo! Saya asisten AI Ahmad Ma'sum. Anda bisa bertanya tentang latar belakang Ahmad, keahlian, proyek, atau apa pun yang ingin Anda ketahui! \n Ketik ",
     "chat_header_title": "Masum Talk",
     "chat_header_subtitle": "Obrolan dengan Asisten AI Ahmad Ma'sum",
-    "clear_button":"Bersihkan", 
-    "input_hint":"Tekan Enter untuk mengirim, Shift+Enter untuk baris baru",
-    "input_placeholder":"Tanyakan padaku tentang Ahmad Ma'sum atau hal lainnya...",
-    "error_message":"Maaf, terjadi kesalahan. Silakan coba lagi nanti."
+    "clear_button": "Bersihkan",
+    "input_hint": "Tekan Enter untuk mengirim, Shift+Enter untuk baris baru",
+    "input_placeholder": "Tanyakan padaku tentang Ahmad Ma'sum atau hal lainnya...",
+    "error_message": "Maaf, terjadi kesalahan. Silakan coba lagi nanti."
   },
   "Footer": {
     "hire": "Rekrut saya.",
@@ -215,7 +231,8 @@
     "Dashboard": "Dasbor",
     "Chat Room": "Ruang Obrolan",
     "Contact": "Kontak",
-    "Smart Talk": "Obrolan Pintar"
+    "Smart Talk": "Obrolan Pintar",
+    "Links": "Tautan"
   },
   "NotFoundPage": {
     "title": "Halaman tidak ditemukan",
