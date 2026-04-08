@@ -313,6 +313,18 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     is_show: true,
     type:"course"
   },
+  {
+    id: 27,
+    credential_id: "CERT-027",
+    name: "Sekolah Pasar Modal 2026",
+    issuing_organization: "PT. Bursa Efek Indonesia (BEI)",
+    category: "certificate",
+    url_credential: "https://drive.google.com",
+    issue_date: "2026-03-16",
+    image: "/images/achievements/bei-spm.png",
+    is_show: true,
+    type:"course"
+  },
 
 ];
 

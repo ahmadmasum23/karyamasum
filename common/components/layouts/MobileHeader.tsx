@@ -36,7 +36,7 @@ const MobileHeader = () => {
           <div className="mt-1 flex items-center gap-2">
             <Link href="/" passHref>
               <h2 className="flex-grow whitespace-nowrap text-lg font-medium lg:text-xl">
-                Ahmad Ma'sum  
+                Ahmad Ma'sum
               </h2>
             </Link>
             <Tooltip title="Verified">
@@ -44,7 +44,7 @@ const MobileHeader = () => {
             </Tooltip>
           </div>
         </div>
-        {isMobile && (
+        {/* {isMobile && (
           <div
             className={clsx(
               "mt-2 flex items-center gap-5 lg:hidden",
@@ -53,6 +53,11 @@ const MobileHeader = () => {
             )}
           >
             <ThemeToggle />
+            <MobileMenuButton expandMenu={isOpen} setExpandMenu={toggleMenu} />
+          </div>
+        )} */}
+        {isMobile && (
+          <div className="mt-2 flex items-center lg:hidden">
             <MobileMenuButton expandMenu={isOpen} setExpandMenu={toggleMenu} />
           </div>
         )}

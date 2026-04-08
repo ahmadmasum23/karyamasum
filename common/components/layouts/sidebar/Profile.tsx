@@ -32,7 +32,7 @@ const Profile = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []); 
+  }, []);
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
@@ -54,7 +54,7 @@ const Profile = () => {
     >
       <div className="flex items-center justify-between md:px-2 lg:flex-col lg:space-y-4">
         <ProfileHeader expandMenu={isOpen} imageSize={imageSize} />
-        {isMobile && (
+        {/* {isMobile && (
           <div
             className={clsx(
               "mt-1 flex items-center gap-5 lg:hidden",
@@ -67,6 +67,14 @@ const Profile = () => {
               <ThemeToggle />
             </div>
             <MobileMenuButton expandMenu={isOpen} setExpandMenu={toggleMenu} />
+          </div>
+        )} */}
+        {isMobile && (
+          <div className="mt-1 flex items-center lg:hidden">
+            <MobileMenuButton
+              expandMenu={isOpen}
+              setExpandMenu={toggleMenu}
+            />
           </div>
         )}
       </div>

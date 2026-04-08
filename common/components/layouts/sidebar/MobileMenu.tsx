@@ -5,6 +5,8 @@ import { MENU_ITEMS } from "@/common/constants/menu";
 import Breakline from "../../elements/Breakline";
 
 import Menu from "./Menu";
+import IntlToggle from "./IntlToggle";
+import ThemeToggle from "./ThemeToggle";
 
 const MobileMenu = () => {
   const filteredMenu = MENU_ITEMS?.filter((item) => item?.isShow);
@@ -15,10 +17,17 @@ const MobileMenu = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
     >
-      <div>
+      {/* <div>
         <Breakline />
         <Menu list={filteredMenu} />
-      </div>
+      </div> */}
+      <div className="flex justify-end gap-3 mb-4">
+    <IntlToggle />
+    <ThemeToggle />
+  </div>
+
+  <Breakline />
+  <Menu list={filteredMenu} />
     </motion.div>
   );
 };

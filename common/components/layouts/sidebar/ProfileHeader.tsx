@@ -22,33 +22,52 @@ const ProfileHeader = ({ expandMenu, imageSize }: ProfileHeaderProps) => {
         expandMenu && "flex-col !items-start",
       )}
     >
-      <Image
+      {/* <Image
         src={"/images/masm.png"}
         width={expandMenu ? 80 : imageSize * 0.9}
         height={expandMenu ? 80 : imageSize * 0.9}
         alt="Ahmad Ma'sum"
         className="border-2 border-neutral-400 dark:border-neutral-600 lg:hover:scale-105"
         rounded="rounded-full"
-      />
+      /> */}
+      <div className="hidden lg:block">
+  <Image
+    src={"/images/masm.png"}
+    width={expandMenu ? 80 : imageSize * 0.9}
+    height={expandMenu ? 80 : imageSize * 0.9}
+    alt="Ahmad Ma'sum"
+    className="border-2 border-neutral-400 dark:border-neutral-600 lg:hover:scale-105"
+    rounded="rounded-full"
+  />
+</div>
 
       <div className="mt-1 flex items-center gap-2 lg:mt-4">
+      {/* <div className="flex items-center gap-2"> */}
         <Link href="/" passHref>
           <h2 className="flex-grow text-lg font-medium lg:text-xl">
             Ahmad Ma'sum
           </h2>
         </Link>
 
-        <Tooltip title="Verified">
+        {/* <Tooltip title="Verified">
           <VerifiedIcon size={18} className="text-blue-400" />
-        </Tooltip>
+        </Tooltip> */}
+        <div className="hidden lg:block">
+  <Tooltip title="Verified">
+    <VerifiedIcon size={18} className="text-blue-400" />
+  </Tooltip>
+</div>
       </div>
 
       <div className="hidden text-sm text-neutral-600 transition-all duration-300 hover:text-neutral-700 dark:text-neutral-500 dark:hover:text-neutral-400 lg:flex">
         @ahmadmasum
       </div>
-      <div className="mt-1 flex items-center gap-2 ">
+      {/* <div className="mt-1 flex items-center gap-2 ">
         <Status />
-      </div>
+      </div> */}
+      <div className="hidden lg:flex mt-1 items-center gap-2">
+  <Status />
+</div>
       <div className="hidden justify-between gap-6 lg:mt-4 lg:flex">
         <IntlToggle />
         <ThemeToggle />
