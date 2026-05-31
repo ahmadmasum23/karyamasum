@@ -21,7 +21,7 @@ import { useTranslations } from "next-intl";
 
 const Links = () => {
   const t = useTranslations("LinksPage");
-  
+
   const [theme, setTheme] = useState<"light" | "dark">("dark");
   const [showQRModal, setShowQRModal] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -265,14 +265,15 @@ const Links = () => {
         </p>
 
         {/* Email Button */}
-        <button 
-          onClick={() => window.location.href = "mailto:ahmadmasum127@gmail.com"}
+        <button
+          onClick={() => window.location.href = "https://ahmadmasum.vercel.app/contact"}
           className="bg-neutral-900 text-white px-5 py-2.5 rounded-lg font-medium text-sm 
-                     inline-flex items-center gap-2 hover:bg-neutral-800 transition-all duration-200
-                     transform hover:scale-105 hover:-translate-y-0.5 hover:shadow-lg
-                     dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200">
-          <span>{t("sendEmail")}</span>
-          <BsArrowUpRightCircle size={16} className="transition-transform group-hover:translate-x-0.5" />
+             inline-flex items-center gap-2 hover:bg-neutral-800 transition-all duration-200
+             transform hover:scale-105 hover:-translate-y-0.5 hover:shadow-lg
+             dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200"
+        >
+          <span>{t("visitWebsite")}</span>
+          <BsArrowUpRightCircle size={16} />
         </button>
 
         {/* Email Address */}
@@ -310,7 +311,7 @@ const Links = () => {
             onMouseDown={onMouseDown}
           >
             <div className="mx-auto max-w-md rounded-t-3xl bg-white dark:bg-neutral-900 shadow-2xl overflow-hidden">
-              
+
               {/* Handle Bar */}
               <div className="flex justify-center pt-3 pb-2 cursor-grab active:cursor-grabbing">
                 <div className="w-10 h-1.5 rounded-full bg-neutral-300 dark:bg-neutral-700 transition-all duration-200 hover:w-12" />
@@ -345,7 +346,7 @@ const Links = () => {
                     {t("urlPage")}
                   </label>
                   <div className="flex gap-2 relative">
-                    
+
                     {/* Toast Notification */}
                     {copied && (
                       <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded-lg bg-neutral-800 dark:bg-neutral-700 text-white text-sm font-medium shadow-lg animate-fade-in-up whitespace-nowrap z-10">
