@@ -1,5 +1,6 @@
 export type EducationProps = {
   school: string;
+  faculty: string;
   major: string;
   logo: string;
   location: string;

@@ -1,7 +1,7 @@
 export const METADATA = {
   creator: "Ahmad Ma'sum",
   description: "Personal website, portfolio, blog",
-  keyword: "Ahmad Ma'sum SMK Brantas Karangkates, Ahmad Ma'sum",
+  keyword: "Ahmad Ma'sum Universitas Brawijaya, Ahmad Ma'sum",
   authors: {
     name: "Ahmad Ma'sum",
     url: process.env.DOMAIN || process.env.NEXTAUTH_URL || "http://localhost:3000",

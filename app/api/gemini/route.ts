@@ -19,7 +19,7 @@ const PERSONAL_DATA = {
     "API Integration",
     "Database Management",
   ],
-  education: "Software Engineering (RPL) at SMK Brantas Karangkates",
+  education: "Associate Degree Student in Information Technology at Universitas Brawijaya",
   experience:
     "Student with passion for creating functional and intuitive applications",
   technologies: [
