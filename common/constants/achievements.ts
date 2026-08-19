@@ -325,6 +325,30 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
     is_show: true,
     type:"course"
   },
+  {
+    id: 28,
+    credential_id: "CERT-028",
+    name: "Siswa Tersertifikasi Gemini - Universitas",
+    issuing_organization: "Google Gemini",
+    category: "certificate",
+    url_credential: "https://edu.google.accredible.com/0c39fe30-1ee5-4664-95a8-6ba125bb5ce2#acc.vfcJzS3Y",
+    issue_date: "2026-08-19",
+    image: "/images/achievements/geminiStudent.png",
+    is_show: true,
+    type:"course"
+  },
+  {
+    id: 29,
+    credential_id: "CERT-029",
+    name: "Introduction to Gemini for Education",
+    issuing_organization: "Google Gemini",
+    category: "badge",
+    url_credential: "https://edu.google.accredible.com/c9a42e0c-efdb-479b-85ed-833d0e93d928#acc.QxAuLtW0",
+    issue_date: "2026-08-16",
+    image: "/images/achievements/geminiBudge.png",
+    is_show: true,
+    type:"course"
+  },
 
 ];
 
