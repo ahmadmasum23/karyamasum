@@ -69,7 +69,7 @@ export const ChatRoom = ({ isWidget = false }: { isWidget?: boolean }) => {
   };
 
   useEffect(() => {
-    if (data) setMessages(data);
+    if (Array.isArray(data)) setMessages(data);
   }, [data]);
 
   useEffect(() => {

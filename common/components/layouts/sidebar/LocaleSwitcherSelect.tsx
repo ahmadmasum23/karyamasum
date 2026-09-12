@@ -22,7 +22,7 @@ const LocaleSwitcherSelect = ({
 
   const onSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
     const locale = event.target.value as Locale;
-    startTransition(() => {
+      startTransition(() => {
       setUserLocale(locale);
     });
   };
