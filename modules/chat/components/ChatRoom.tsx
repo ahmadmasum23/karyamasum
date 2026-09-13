@@ -17,7 +17,7 @@ import { createClient } from "@/common/utils/client";
 import useNotif from "@/hooks/useNotif";
 
 export const ChatRoom = ({ isWidget = false }: { isWidget?: boolean }) => {
-  const { data, isLoading } = useSWR("/api/chat", fetcher);
+  const { data, isLoading, mutate } = useSWR("/api/chat", fetcher);
 
   const [messages, setMessages] = useState<MessageProps[]>([]);
   const [isReply, setIsReply] = useState({ is_reply: false, name: "" });
@@ -39,23 +39,32 @@ export const ChatRoom = ({ isWidget = false }: { isWidget?: boolean }) => {
 
   const handleSendMessage = async (message: string) => {
     const messageId = uuidv4();
-    const newMessageData = {
+    const newMessageData: MessageProps = {
       id: messageId,
-      name: session?.user?.name,
-      email: session?.user?.email,
-      image: session?.user?.image,
+      name: session?.user?.name ?? "",
+      email: session?.user?.email ?? "",
+      image: session?.user?.image ?? "",
       message,
       is_reply: isReply.is_reply,
       reply_to: isReply.name,
       is_show: true,
       created_at: new Date().toISOString(),
     };
+
+    // Optimistic update: tampilkan pesan langsung di UI sebelum API selesai
+    setMessages((prev) => [...prev, newMessageData]);
+    handleCancelReply();
+
     try {
       await axios.post("/api/chat", newMessageData);
       notif("Successfully to send message");
+      // Revalidasi SWR agar data tetap sinkron dengan database
+      mutate();
     } catch (error) {
       console.error("Error:", error);
       notif("Failed to send message");
+      // Rollback: hapus pesan optimistic jika API gagal
+      setMessages((prev) => prev.filter((msg) => msg.id !== messageId));
     }
   };
 
@@ -83,10 +92,14 @@ export const ChatRoom = ({ isWidget = false }: { isWidget?: boolean }) => {
           table: "messages",
         },
         (payload) => {
-          setMessages((prevMessages) => [
-            ...prevMessages,
-            payload.new as MessageProps,
-          ]);
+          setMessages((prevMessages) => {
+            // Cegah duplikat: jika pesan sudah ada dari optimistic update, skip
+            const exists = prevMessages.some(
+              (msg) => msg.id === (payload.new as MessageProps).id,
+            );
+            if (exists) return prevMessages;
+            return [...prevMessages, payload.new as MessageProps];
+          });
         },
       )
       .on(

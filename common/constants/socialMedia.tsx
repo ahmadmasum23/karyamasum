@@ -5,6 +5,7 @@ import {
   BsTiktok as TiktokIcon,
   BsTelegram as TelegramIcon,
   BsWhatsapp as WhatsappIcon,
+  BsDiscord as DiscordIcon,
 } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 
@@ -100,17 +101,31 @@ export const SOCIAL_MEDIA: SocialMediaProps[] = [
     isShow: true,
   },
   {
-    title: "Connect on Telegram",
-    description: "Chat with me directly on Telegram for collaboration or discussion.",
-    name: "whatsapp",
-    href: "https://wa.me/6287873612458",
-    icon: <WhatsappIcon size={iconSize} />,
-    backgroundIcon: <WhatsappIcon size={backgroundIconSize} />,
-    textColor: "text-green-400",
-    backgroundColor: "bg-green-400",
-    borderColor: "border-green-400",
-    backgroundGradientColor: "bg-gradient-to-b from-green-900 to-green-950",
+    title: "Connect on Discord",
+    description: "Chat with me directly on Discord for collaboration or discussion.",
+    name: "discord",
+    href: "https://discord.gg/TKSgTHN2",
+    icon: <DiscordIcon size={iconSize} />,
+    backgroundIcon: <DiscordIcon size={backgroundIconSize} />,
+    textColor: "text-blue-400",
+    backgroundColor: "bg-blue-400",
+    borderColor: "border-blue-400",
+    backgroundGradientColor: "bg-gradient-to-b from-blue-900 to-blue-950",
     isShow: true,
   },
+
+  // { 1540162729510309929
+  //   title: "Connect on Telegram",
+  //   description: "Chat with me directly on Telegram for collaboration or discussion.",
+  //   name: "whatsapp",
+  //   href: "https://wa.me/6287748561363",
+  //   icon: <WhatsappIcon size={iconSize} />,
+  //   backgroundIcon: <WhatsappIcon size={backgroundIconSize} />,
+  //   textColor: "text-green-400",
+  //   backgroundColor: "bg-green-400",
+  //   borderColor: "border-green-400",
+  //   backgroundGradientColor: "bg-gradient-to-b from-green-900 to-green-950",
+  //   isShow: true,
+  // },
 
 ];

@@ -266,7 +266,43 @@ siPinjam adalah aplikasi manajemen peminjaman barang yang dikembangkan menggunak
 - Mengurangi kesalahan pencatatan manual  
 - Ringan, responsif, dan cocok digunakan melalui perangkat mobile  
 - Menggunakan teknologi modern dengan sinkronisasi data real-time`
-    }
+    },
+    {
+    id: 8,
+    title: "Guerilla Run - 2D Side - Scrolling Shooter",
+    slug: "guerilla-run",
+    description: "Game action-platformer 2D berbasis Python dan Pygame dengan mekanik pertempuran taktis, AI musuh, sistem level berbasis CSV, serta visual parallax scrolling.",
+    image: "/images/projects/guerilla-run.png",
+    stacks: ["Python", "Pygame"],
+    link_demo: "",
+    link_github: "https://github.com/ahmadmasum23",
+    is_show: true,
+    is_featured: false,
+    content: `## 🎮 Guerilla Run – 2D Side-Scrolling Shooter Game
+
+Guerilla Run adalah game *action-platformer* 2D yang dikembangkan menggunakan bahasa pemrograman Python dan *library* Pygame. Game ini mengombinasikan mekanik pergerakan *platformer* klasik dengan sistem pertempuran taktis menggunakan senjata api dan granat di area pertempuran bernuansa hutan pegunungan.
+
+### 🚀 Fitur Utama
+
+- **Mekanik Pertempuran & Physics** – Karakter dapat bergerak, melompat dengan simulasi gravitasi, menembak peluru, serta melempar granat dengan area ledakan.
+- **AI Musuh Berpatroli** – Musuh dilengkapi sistem deteksi posisi dan logika patroli otomatis untuk menyerang pemain secara cerdas.
+- **Sistem Tilemap & Multi-Level** – Desain *level* dinamis yang dimuat dari file CSV, mendukung hingga beberapa *level* dengan rintangan seperti area air dan jurang.
+- **Sistem Item Pickups** – Kotak suplai amunisi, kesehatan, dan granat yang tersebar di sepanjang peta untuk membantu pemain bertahan hidup.
+- **Visual Parallax Scrolling & Audio** – Tampilan latar belakang berlapis dengan efek pergerakan *camera scrolling* serta efek suara yang responsif.
+
+### ⚙️ Implementasi Teknis
+
+- **Python** – Bahasa pemrograman utama untuk logika game dan struktur Pemrograman Berorientasi Objek (OOP).
+- **Pygame** – Library untuk penanganan *rendering* grafis, animasi *sprite*, deteksi kolisi, dan manajemen input keyboard.
+- **Pygame Mixer** – Pengelolaan tata suara dan efek audio dalam game.
+- **CSV Data Reader** – Pembacaan struktur peta dan *tilemap* secara modular dari file eksternal CSV.
+
+### 🎯 Manfaat & Output Project
+
+- Menjadi demonstrasi implementasi Game Physics, State Management, dan Object-Oriented Programming (OOP) dalam Python.
+- Ringan, responsif, dan dapat dijalankan secara lokal di berbagai sistem operasi.
+- Arsitektur kode modular yang mudah dikembangkan untuk penambahan fitur atau *level* baru.`
+}
 
 
 

@@ -272,7 +272,7 @@ const Links = () => {
              transform hover:scale-105 hover:-translate-y-0.5 hover:shadow-lg
              dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200"
         >
-          <span>{t("visitWebsite")}</span>
+          <span>{t("sendEmail")}</span>
           <BsArrowUpRightCircle size={16} />
         </button>
 
@@ -330,7 +330,7 @@ const Links = () => {
                 <div className="flex justify-center mb-6">
                   <div className="p-4 bg-white rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
                     <img
-                      src="/images/QrCode.png"
+                      src="/images/barcode2.png"
                       alt="QR Code"
                       className="w-48 h-48 object-contain rounded-xl"
                       onError={(e) => {

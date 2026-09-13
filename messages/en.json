@@ -173,6 +173,10 @@
       "whatsapp": {
         "title": "Connect on WhatsApp",
         "description": "Chat with me directly on WhatsApp."
+      },
+      "discord": {
+        "title": "Connect on Discord",
+        "description": "Chat with me directly on Discord."
       }
     },
     "form": {
